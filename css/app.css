@@ -94,11 +94,45 @@ body {
     grid-template-columns: 1fr minmax(340px, 420px);
     align-items: start;
   }
-  .detail-panel {
+  .detail-panel:not([hidden]) {
     position: sticky;
     top: 1rem;
     max-height: calc(100vh - 2rem);
-    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  #detail-body {
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+    padding-right: 0.15rem;
+    scrollbar-gutter: stable;
+  }
+}
+/* Mobile: detail as fixed sheet so page + panel don't fight for scroll */
+@media (max-width: 959px) {
+  .detail-panel:not([hidden]) {
+    position: fixed;
+    inset: auto 0 0 0;
+    z-index: 40;
+    max-height: min(88vh, 720px);
+    border-radius: calc(var(--radius) + 4px) calc(var(--radius) + 4px) 0 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0 -12px 40px rgba(0, 0, 0, 0.45);
+  }
+  #detail-body {
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
   }
 }
 
@@ -191,18 +225,28 @@ body {
   background: var(--bg-elev);
   border: 1px solid var(--border);
   border-radius: calc(var(--radius) + 4px);
-  padding: 1.1rem 1.15rem 1.4rem;
+  padding: 0.75rem 1.15rem 1.1rem;
   box-shadow: var(--shadow);
   position: relative;
 }
 .detail-panel[hidden] { display: none !important; }
 .detail-close {
-  position: absolute; top: 0.55rem; right: 0.65rem;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  float: right;
+  margin: 0 0 0.35rem 0.5rem;
   width: 2rem; height: 2rem; border-radius: 999px;
   border: 1px solid var(--border); background: var(--bg-card);
   color: var(--text); font-size: 1.25rem; line-height: 1; cursor: pointer;
+  flex-shrink: 0;
 }
 .detail-close:hover { border-color: var(--accent); }
+.detail-panel::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 .detail-hero {
   display: flex; gap: 1rem; align-items: center; margin-bottom: 1rem;
@@ -267,7 +311,7 @@ body {
 }
 .ability-effect { margin: 0.35rem 0 0; color: var(--muted); font-size: 0.85rem; }
 
-.moves-wrap { overflow: auto; max-height: 28rem; border-radius: 12px; border: 1px solid var(--border); }
+.moves-wrap { overflow: visible; border-radius: 12px; border: 1px solid var(--border); }
 .moves-table {
   width: 100%; border-collapse: collapse; font-size: 0.8rem;
 }
