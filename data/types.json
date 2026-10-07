@@ -1,0 +1,549 @@
+[
+  {
+    "name": "bug",
+    "displayName": "Bug",
+    "displayNameZh": "蟲",
+    "displayNameJa": "むし",
+    "damageRelations": {
+      "doubleDamageTo": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "halfDamageTo": [
+        "fighting",
+        "flying",
+        "poison",
+        "ghost",
+        "steel",
+        "fire",
+        "fairy"
+      ],
+      "noDamageTo": [],
+      "doubleDamageFrom": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "halfDamageFrom": [
+        "fighting",
+        "ground",
+        "grass"
+      ],
+      "noDamageFrom": []
+    }
+  },
+  {
+    "name": "dragon",
+    "displayName": "Dragon",
+    "displayNameZh": "龍",
+    "displayNameJa": "ドラゴン",
+    "damageRelations": {
+      "doubleDamageTo": [
+        "dragon"
+      ],
+      "halfDamageTo": [
+        "steel"
+      ],
+      "noDamageTo": [
+        "fairy"
+      ],
+      "doubleDamageFrom": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "halfDamageFrom": [
+        "fire",
+        "water",
+        "grass",
+        "electric"
+      ],
+      "noDamageFrom": []
+    }
+  },
+  {
+    "name": "electric",
+    "displayName": "Electric",
+    "displayNameZh": "電",
+    "displayNameJa": "でんき",
+    "damageRelations": {
+      "doubleDamageTo": [
+        "flying",
+        "water"
+      ],
+      "halfDamageTo": [
+        "grass",
+        "electric",
+        "dragon"
+      ],
+      "noDamageTo": [
+        "ground"
+      ],
+      "doubleDamageFrom": [
+        "ground"
+      ],
+      "halfDamageFrom": [
+        "flying",
+        "steel",
+        "electric"
+      ],
+      "noDamageFrom": []
+    }
+  },
+  {
+    "name": "fairy",
+    "displayName": "Fairy",
+    "displayNameZh": "妖精",
+    "displayNameJa": "フェアリー",
+    "damageRelations": {
+      "doubleDamageTo": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "halfDamageTo": [
+        "poison",
+        "steel",
+        "fire"
+      ],
+      "noDamageTo": [],
+      "doubleDamageFrom": [
+        "poison",
+        "steel"
+      ],
+      "halfDamageFrom": [
+        "fighting",
+        "bug",
+        "dark"
+      ],
+      "noDamageFrom": [
+        "dragon"
+      ]
+    }
+  },
+  {
+    "name": "fighting",
+    "displayName": "Fighting",
+    "displayNameZh": "格鬥",
+    "displayNameJa": "かくとう",
+    "damageRelations": {
+      "doubleDamageTo": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "halfDamageTo": [
+        "flying",
+        "poison",
+        "bug",
+        "psychic",
+        "fairy"
+      ],
+      "noDamageTo": [
+        "ghost"
+      ],
+      "doubleDamageFrom": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "halfDamageFrom": [
+        "rock",
+        "bug",
+        "dark"
+      ],
+      "noDamageFrom": []
+    }
+  },
+  {
+    "name": "fire",
+    "displayName": "Fire",
+    "displayNameZh": "火",
+    "displayNameJa": "ほのお",
+    "damageRelations": {
+      "doubleDamageTo": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "halfDamageTo": [
+        "rock",
+        "fire",
+        "water",
+        "dragon"
+      ],
+      "noDamageTo": [],
+      "doubleDamageFrom": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "halfDamageFrom": [
+        "bug",
+        "steel",
+        "fire",
+        "grass",
+        "ice",
+        "fairy"
+      ],
+      "noDamageFrom": []
+    }
+  },
+  {
+    "name": "flying",
+    "displayName": "Flying",
+    "displayNameZh": "飛行",
+    "displayNameJa": "ひこう",
+    "damageRelations": {
+      "doubleDamageTo": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "halfDamageTo": [
+        "rock",
+        "steel",
+        "electric"
+      ],
+      "noDamageTo": [],
+      "doubleDamageFrom": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "halfDamageFrom": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "noDamageFrom": [
+        "ground"
+      ]
+    }
+  },
+  {
+    "name": "ghost",
+    "displayName": "Ghost",
+    "displayNameZh": "幽靈",
+    "displayNameJa": "ゴースト",
+    "damageRelations": {
+      "doubleDamageTo": [
+        "ghost",
+        "psychic"
+      ],
+      "halfDamageTo": [
+        "dark"
+      ],
+      "noDamageTo": [
+        "normal"
+      ],
+      "doubleDamageFrom": [
+        "ghost",
+        "dark"
+      ],
+      "halfDamageFrom": [
+        "poison",
+        "bug"
+      ],
+      "noDamageFrom": [
+        "normal",
+        "fighting"
+      ]
+    }
+  },
+  {
+    "name": "grass",
+    "displayName": "Grass",
+    "displayNameZh": "草",
+    "displayNameJa": "くさ",
+    "damageRelations": {
+      "doubleDamageTo": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "halfDamageTo": [
+        "flying",
+        "poison",
+        "bug",
+        "steel",
+        "fire",
+        "grass",
+        "dragon"
+      ],
+      "noDamageTo": [],
+      "doubleDamageFrom": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "halfDamageFrom": [
+        "ground",
+        "water",
+        "grass",
+        "electric"
+      ],
+      "noDamageFrom": []
+    }
+  },
+  {
+    "name": "ground",
+    "displayName": "Ground",
+    "displayNameZh": "地面",
+    "displayNameJa": "じめん",
+    "damageRelations": {
+      "doubleDamageTo": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "halfDamageTo": [
+        "bug",
+        "grass"
+      ],
+      "noDamageTo": [
+        "flying"
+      ],
+      "doubleDamageFrom": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "halfDamageFrom": [
+        "poison",
+        "rock"
+      ],
+      "noDamageFrom": [
+        "electric"
+      ]
+    }
+  },
+  {
+    "name": "ice",
+    "displayName": "Ice",
+    "displayNameZh": "冰",
+    "displayNameJa": "こおり",
+    "damageRelations": {
+      "doubleDamageTo": [
+        "flying",
+        "ground",
+        "grass",
+        "dragon"
+      ],
+      "halfDamageTo": [
+        "steel",
+        "fire",
+        "water",
+        "ice"
+      ],
+      "noDamageTo": [],
+      "doubleDamageFrom": [
+        "fighting",
+        "rock",
+        "steel",
+        "fire"
+      ],
+      "halfDamageFrom": [
+        "ice"
+      ],
+      "noDamageFrom": []
+    }
+  },
+  {
+    "name": "normal",
+    "displayName": "Normal",
+    "displayNameZh": "一般",
+    "displayNameJa": "ノーマル",
+    "damageRelations": {
+      "doubleDamageTo": [],
+      "halfDamageTo": [
+        "rock",
+        "steel"
+      ],
+      "noDamageTo": [
+        "ghost"
+      ],
+      "doubleDamageFrom": [
+        "fighting"
+      ],
+      "halfDamageFrom": [],
+      "noDamageFrom": [
+        "ghost"
+      ]
+    }
+  },
+  {
+    "name": "poison",
+    "displayName": "Poison",
+    "displayNameZh": "毒",
+    "displayNameJa": "どく",
+    "damageRelations": {
+      "doubleDamageTo": [
+        "grass",
+        "fairy"
+      ],
+      "halfDamageTo": [
+        "poison",
+        "ground",
+        "rock",
+        "ghost"
+      ],
+      "noDamageTo": [
+        "steel"
+      ],
+      "doubleDamageFrom": [
+        "ground",
+        "psychic"
+      ],
+      "halfDamageFrom": [
+        "fighting",
+        "poison",
+        "bug",
+        "grass",
+        "fairy"
+      ],
+      "noDamageFrom": []
+    }
+  },
+  {
+    "name": "psychic",
+    "displayName": "Psychic",
+    "displayNameZh": "超能力",
+    "displayNameJa": "エスパー",
+    "damageRelations": {
+      "doubleDamageTo": [
+        "fighting",
+        "poison"
+      ],
+      "halfDamageTo": [
+        "steel",
+        "psychic"
+      ],
+      "noDamageTo": [
+        "dark"
+      ],
+      "doubleDamageFrom": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "halfDamageFrom": [
+        "fighting",
+        "psychic"
+      ],
+      "noDamageFrom": []
+    }
+  },
+  {
+    "name": "rock",
+    "displayName": "Rock",
+    "displayNameZh": "岩石",
+    "displayNameJa": "いわ",
+    "damageRelations": {
+      "doubleDamageTo": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "halfDamageTo": [
+        "fighting",
+        "ground",
+        "steel"
+      ],
+      "noDamageTo": [],
+      "doubleDamageFrom": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "halfDamageFrom": [
+        "normal",
+        "flying",
+        "poison",
+        "fire"
+      ],
+      "noDamageFrom": []
+    }
+  },
+  {
+    "name": "steel",
+    "displayName": "Steel",
+    "displayNameZh": "鋼",
+    "displayNameJa": "はがね",
+    "damageRelations": {
+      "doubleDamageTo": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "halfDamageTo": [
+        "steel",
+        "fire",
+        "water",
+        "electric"
+      ],
+      "noDamageTo": [],
+      "doubleDamageFrom": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "halfDamageFrom": [
+        "normal",
+        "flying",
+        "rock",
+        "bug",
+        "steel",
+        "grass",
+        "psychic",
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "noDamageFrom": [
+        "poison"
+      ]
+    }
+  },
+  {
+    "name": "water",
+    "displayName": "Water",
+    "displayNameZh": "水",
+    "displayNameJa": "みず",
+    "damageRelations": {
+      "doubleDamageTo": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "halfDamageTo": [
+        "water",
+        "grass",
+        "dragon"
+      ],
+      "noDamageTo": [],
+      "doubleDamageFrom": [
+        "grass",
+        "electric"
+      ],
+      "halfDamageFrom": [
+        "steel",
+        "fire",
+        "water",
+        "ice"
+      ],
+      "noDamageFrom": []
+    }
+  }
+]

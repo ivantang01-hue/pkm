@@ -1,0 +1,119 @@
+{
+  "id": 129,
+  "name": "magikarp",
+  "displayName": "Magikarp",
+  "displayNameZh": "鯉魚王",
+  "displayNameJa": "コイキング",
+  "species": "magikarp",
+  "generation": 1,
+  "types": [
+    "water"
+  ],
+  "baseStats": {
+    "hp": 20,
+    "attack": 10,
+    "defense": 55,
+    "specialAttack": 15,
+    "specialDefense": 20,
+    "speed": 80
+  },
+  "abilities": [
+    {
+      "id": 33,
+      "name": "swift-swim",
+      "displayName": "Swift Swim",
+      "displayNameZh": "悠游自如",
+      "displayNameJa": "すいすい",
+      "isHidden": false,
+      "slot": 1,
+      "shortEffect": "Doubles Speed during rain."
+    },
+    {
+      "id": 155,
+      "name": "rattled",
+      "displayName": "Rattled",
+      "displayNameZh": "膽怯",
+      "displayNameJa": "びびり",
+      "isHidden": true,
+      "slot": 3,
+      "shortEffect": "Raises Speed one stage upon being hit by a Dark, Ghost, or Bug move."
+    }
+  ],
+  "moves": [
+    {
+      "id": 33,
+      "name": "tackle",
+      "displayName": "Tackle",
+      "displayNameZh": "撞擊",
+      "displayNameJa": "たいあたり",
+      "type": "normal",
+      "damageClass": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "learnMethod": "level-up",
+      "levelLearnedAt": 15
+    },
+    {
+      "id": 56,
+      "name": "hydro-pump",
+      "displayName": "Hydro Pump",
+      "displayNameZh": "水炮",
+      "displayNameJa": "ハイドロポンプ",
+      "type": "water",
+      "damageClass": "special",
+      "power": 110,
+      "accuracy": 80,
+      "pp": 5,
+      "learnMethod": "machine",
+      "levelLearnedAt": null
+    },
+    {
+      "id": 150,
+      "name": "splash",
+      "displayName": "Splash",
+      "displayNameZh": "躍起",
+      "displayNameJa": "はねる",
+      "type": "normal",
+      "damageClass": "status",
+      "power": null,
+      "accuracy": null,
+      "pp": 40,
+      "learnMethod": "level-up",
+      "levelLearnedAt": 1
+    },
+    {
+      "id": 175,
+      "name": "flail",
+      "displayName": "Flail",
+      "displayNameZh": "抓狂",
+      "displayNameJa": "じたばた",
+      "type": "normal",
+      "damageClass": "physical",
+      "power": null,
+      "accuracy": 100,
+      "pp": 15,
+      "learnMethod": "level-up",
+      "levelLearnedAt": 25
+    },
+    {
+      "id": 340,
+      "name": "bounce",
+      "displayName": "Bounce",
+      "displayNameZh": "彈跳",
+      "displayNameJa": "とびはねる",
+      "type": "flying",
+      "damageClass": "physical",
+      "power": 85,
+      "accuracy": 85,
+      "pp": 5,
+      "learnMethod": "tutor",
+      "levelLearnedAt": null
+    }
+  ],
+  "height": 9,
+  "weight": 100,
+  "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
+  "shinySpriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/129.png",
+  "wikiUrl": "https://wiki.52poke.com/wiki/%E9%AF%89%E9%AD%9A%E7%8E%8B"
+}

@@ -1,0 +1,2032 @@
+[
+  {
+    "id": 1,
+    "name": "bulbasaur",
+    "displayName": "Bulbasaur",
+    "displayNameZh": "妙蛙種子",
+    "displayNameJa": "フシギダネ",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
+    "baseStatTotal": 318,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%A6%99%E8%9B%99%E7%A8%AE%E5%AD%90"
+  },
+  {
+    "id": 2,
+    "name": "ivysaur",
+    "displayName": "Ivysaur",
+    "displayNameZh": "妙蛙草",
+    "displayNameJa": "フシギソウ",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "baseStatTotal": 405,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%A6%99%E8%9B%99%E8%8D%89"
+  },
+  {
+    "id": 3,
+    "name": "venusaur",
+    "displayName": "Venusaur",
+    "displayNameZh": "妙蛙花",
+    "displayNameJa": "フシギバナ",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png",
+    "baseStatTotal": 525,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%A6%99%E8%9B%99%E8%8A%B1"
+  },
+  {
+    "id": 4,
+    "name": "charmander",
+    "displayName": "Charmander",
+    "displayNameZh": "小火龍",
+    "displayNameJa": "ヒトカゲ",
+    "types": [
+      "fire"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
+    "baseStatTotal": 309,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%B0%8F%E7%81%AB%E9%BE%8D"
+  },
+  {
+    "id": 5,
+    "name": "charmeleon",
+    "displayName": "Charmeleon",
+    "displayNameZh": "火恐龍",
+    "displayNameJa": "リザード",
+    "types": [
+      "fire"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png",
+    "baseStatTotal": 405,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E7%81%AB%E6%81%90%E9%BE%8D"
+  },
+  {
+    "id": 6,
+    "name": "charizard",
+    "displayName": "Charizard",
+    "displayNameZh": "噴火龍",
+    "displayNameJa": "リザードン",
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+    "baseStatTotal": 534,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%99%B4%E7%81%AB%E9%BE%8D"
+  },
+  {
+    "id": 7,
+    "name": "squirtle",
+    "displayName": "Squirtle",
+    "displayNameZh": "傑尼龜",
+    "displayNameJa": "ゼニガメ",
+    "types": [
+      "water"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
+    "baseStatTotal": 314,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%82%91%E5%B0%BC%E9%BE%9C"
+  },
+  {
+    "id": 8,
+    "name": "wartortle",
+    "displayName": "Wartortle",
+    "displayNameZh": "卡咪龜",
+    "displayNameJa": "カメール",
+    "types": [
+      "water"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png",
+    "baseStatTotal": 405,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%8D%A1%E5%92%AA%E9%BE%9C"
+  },
+  {
+    "id": 9,
+    "name": "blastoise",
+    "displayName": "Blastoise",
+    "displayNameZh": "水箭龜",
+    "displayNameJa": "カメックス",
+    "types": [
+      "water"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png",
+    "baseStatTotal": 530,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E6%B0%B4%E7%AE%AD%E9%BE%9C"
+  },
+  {
+    "id": 10,
+    "name": "caterpie",
+    "displayName": "Caterpie",
+    "displayNameZh": "綠毛蟲",
+    "displayNameJa": "キャタピー",
+    "types": [
+      "bug"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png",
+    "baseStatTotal": 195,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E7%B6%A0%E6%AF%9B%E8%9F%B2"
+  },
+  {
+    "id": 11,
+    "name": "metapod",
+    "displayName": "Metapod",
+    "displayNameZh": "鐵甲蛹",
+    "displayNameJa": "トランセル",
+    "types": [
+      "bug"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/11.png",
+    "baseStatTotal": 205,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E9%90%B5%E7%94%B2%E8%9B%B9"
+  },
+  {
+    "id": 12,
+    "name": "butterfree",
+    "displayName": "Butterfree",
+    "displayNameZh": "巴大蝶",
+    "displayNameJa": "バタフリー",
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/12.png",
+    "baseStatTotal": 395,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%B7%B4%E5%A4%A7%E8%9D%B6"
+  },
+  {
+    "id": 13,
+    "name": "weedle",
+    "displayName": "Weedle",
+    "displayNameZh": "獨角蟲",
+    "displayNameJa": "ビードル",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png",
+    "baseStatTotal": 195,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E7%8D%A8%E8%A7%92%E8%9F%B2"
+  },
+  {
+    "id": 14,
+    "name": "kakuna",
+    "displayName": "Kakuna",
+    "displayNameZh": "鐵殼蛹",
+    "displayNameJa": "コクーン",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/14.png",
+    "baseStatTotal": 205,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E9%90%B5%E6%AE%BC%E8%9B%B9"
+  },
+  {
+    "id": 15,
+    "name": "beedrill",
+    "displayName": "Beedrill",
+    "displayNameZh": "大針蜂",
+    "displayNameJa": "スピアー",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png",
+    "baseStatTotal": 395,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%A4%A7%E9%87%9D%E8%9C%82"
+  },
+  {
+    "id": 16,
+    "name": "pidgey",
+    "displayName": "Pidgey",
+    "displayNameZh": "波波",
+    "displayNameJa": "ポッポ",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
+    "baseStatTotal": 251,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E6%B3%A2%E6%B3%A2"
+  },
+  {
+    "id": 17,
+    "name": "pidgeotto",
+    "displayName": "Pidgeotto",
+    "displayNameZh": "比比鳥",
+    "displayNameJa": "ピジョン",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
+    "baseStatTotal": 349,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E6%AF%94%E6%AF%94%E9%B3%A5"
+  },
+  {
+    "id": 18,
+    "name": "pidgeot",
+    "displayName": "Pidgeot",
+    "displayNameZh": "大比鳥",
+    "displayNameJa": "ピジョット",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
+    "baseStatTotal": 479,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%A4%A7%E6%AF%94%E9%B3%A5"
+  },
+  {
+    "id": 19,
+    "name": "rattata",
+    "displayName": "Rattata",
+    "displayNameZh": "小拉達",
+    "displayNameJa": "コラッタ",
+    "types": [
+      "normal"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png",
+    "baseStatTotal": 253,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%B0%8F%E6%8B%89%E9%81%94"
+  },
+  {
+    "id": 20,
+    "name": "raticate",
+    "displayName": "Raticate",
+    "displayNameZh": "拉達",
+    "displayNameJa": "ラッタ",
+    "types": [
+      "normal"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png",
+    "baseStatTotal": 413,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E6%8B%89%E9%81%94"
+  },
+  {
+    "id": 21,
+    "name": "spearow",
+    "displayName": "Spearow",
+    "displayNameZh": "烈雀",
+    "displayNameJa": "オニスズメ",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/21.png",
+    "baseStatTotal": 262,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E7%83%88%E9%9B%80"
+  },
+  {
+    "id": 22,
+    "name": "fearow",
+    "displayName": "Fearow",
+    "displayNameZh": "大嘴雀",
+    "displayNameJa": "オニドリル",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png",
+    "baseStatTotal": 442,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%A4%A7%E5%98%B4%E9%9B%80"
+  },
+  {
+    "id": 23,
+    "name": "ekans",
+    "displayName": "Ekans",
+    "displayNameZh": "阿柏蛇",
+    "displayNameJa": "アーボ",
+    "types": [
+      "poison"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png",
+    "baseStatTotal": 288,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E9%98%BF%E6%9F%8F%E8%9B%87"
+  },
+  {
+    "id": 24,
+    "name": "arbok",
+    "displayName": "Arbok",
+    "displayNameZh": "阿柏怪",
+    "displayNameJa": "アーボック",
+    "types": [
+      "poison"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/24.png",
+    "baseStatTotal": 448,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E9%98%BF%E6%9F%8F%E6%80%AA"
+  },
+  {
+    "id": 25,
+    "name": "pikachu",
+    "displayName": "Pikachu",
+    "displayNameZh": "皮卡丘",
+    "displayNameJa": "ピカチュウ",
+    "types": [
+      "electric"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
+    "baseStatTotal": 320,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E7%9A%AE%E5%8D%A1%E4%B8%98"
+  },
+  {
+    "id": 26,
+    "name": "raichu",
+    "displayName": "Raichu",
+    "displayNameZh": "雷丘",
+    "displayNameJa": "ライチュウ",
+    "types": [
+      "electric"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png",
+    "baseStatTotal": 485,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E9%9B%B7%E4%B8%98"
+  },
+  {
+    "id": 27,
+    "name": "sandshrew",
+    "displayName": "Sandshrew",
+    "displayNameZh": "穿山鼠",
+    "displayNameJa": "サンド",
+    "types": [
+      "ground"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/27.png",
+    "baseStatTotal": 300,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E7%A9%BF%E5%B1%B1%E9%BC%A0"
+  },
+  {
+    "id": 28,
+    "name": "sandslash",
+    "displayName": "Sandslash",
+    "displayNameZh": "穿山王",
+    "displayNameJa": "サンドパン",
+    "types": [
+      "ground"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/28.png",
+    "baseStatTotal": 450,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E7%A9%BF%E5%B1%B1%E7%8E%8B"
+  },
+  {
+    "id": 29,
+    "name": "nidoran-f",
+    "displayName": "Nidoran♀",
+    "displayNameZh": "尼多蘭",
+    "displayNameJa": "ニドラン♀",
+    "types": [
+      "poison"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/29.png",
+    "baseStatTotal": 275,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%B0%BC%E5%A4%9A%E8%98%AD"
+  },
+  {
+    "id": 30,
+    "name": "nidorina",
+    "displayName": "Nidorina",
+    "displayNameZh": "尼多娜",
+    "displayNameJa": "ニドリーナ",
+    "types": [
+      "poison"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/30.png",
+    "baseStatTotal": 365,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%B0%BC%E5%A4%9A%E5%A8%9C"
+  },
+  {
+    "id": 31,
+    "name": "nidoqueen",
+    "displayName": "Nidoqueen",
+    "displayNameZh": "尼多后",
+    "displayNameJa": "ニドクイン",
+    "types": [
+      "poison",
+      "ground"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/31.png",
+    "baseStatTotal": 505,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%B0%BC%E5%A4%9A%E5%90%8E"
+  },
+  {
+    "id": 32,
+    "name": "nidoran-m",
+    "displayName": "Nidoran♂",
+    "displayNameZh": "尼多朗",
+    "displayNameJa": "ニドラン♂",
+    "types": [
+      "poison"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/32.png",
+    "baseStatTotal": 273,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%B0%BC%E5%A4%9A%E6%9C%97"
+  },
+  {
+    "id": 33,
+    "name": "nidorino",
+    "displayName": "Nidorino",
+    "displayNameZh": "尼多力諾",
+    "displayNameJa": "ニドリーノ",
+    "types": [
+      "poison"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/33.png",
+    "baseStatTotal": 365,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%B0%BC%E5%A4%9A%E5%8A%9B%E8%AB%BE"
+  },
+  {
+    "id": 34,
+    "name": "nidoking",
+    "displayName": "Nidoking",
+    "displayNameZh": "尼多王",
+    "displayNameJa": "ニドキング",
+    "types": [
+      "poison",
+      "ground"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/34.png",
+    "baseStatTotal": 505,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%B0%BC%E5%A4%9A%E7%8E%8B"
+  },
+  {
+    "id": 35,
+    "name": "clefairy",
+    "displayName": "Clefairy",
+    "displayNameZh": "皮皮",
+    "displayNameJa": "ピッピ",
+    "types": [
+      "fairy"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png",
+    "baseStatTotal": 323,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E7%9A%AE%E7%9A%AE"
+  },
+  {
+    "id": 36,
+    "name": "clefable",
+    "displayName": "Clefable",
+    "displayNameZh": "皮可西",
+    "displayNameJa": "ピクシー",
+    "types": [
+      "fairy"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/36.png",
+    "baseStatTotal": 483,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E7%9A%AE%E5%8F%AF%E8%A5%BF"
+  },
+  {
+    "id": 37,
+    "name": "vulpix",
+    "displayName": "Vulpix",
+    "displayNameZh": "六尾",
+    "displayNameJa": "ロコン",
+    "types": [
+      "fire"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png",
+    "baseStatTotal": 299,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%85%AD%E5%B0%BE"
+  },
+  {
+    "id": 38,
+    "name": "ninetales",
+    "displayName": "Ninetales",
+    "displayNameZh": "九尾",
+    "displayNameJa": "キュウコン",
+    "types": [
+      "fire"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png",
+    "baseStatTotal": 505,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E4%B9%9D%E5%B0%BE"
+  },
+  {
+    "id": 39,
+    "name": "jigglypuff",
+    "displayName": "Jigglypuff",
+    "displayNameZh": "胖丁",
+    "displayNameJa": "プリン",
+    "types": [
+      "normal",
+      "fairy"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png",
+    "baseStatTotal": 270,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E8%83%96%E4%B8%81"
+  },
+  {
+    "id": 40,
+    "name": "wigglytuff",
+    "displayName": "Wigglytuff",
+    "displayNameZh": "胖可丁",
+    "displayNameJa": "プクリン",
+    "types": [
+      "normal",
+      "fairy"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/40.png",
+    "baseStatTotal": 435,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E8%83%96%E5%8F%AF%E4%B8%81"
+  },
+  {
+    "id": 41,
+    "name": "zubat",
+    "displayName": "Zubat",
+    "displayNameZh": "超音蝠",
+    "displayNameJa": "ズバット",
+    "types": [
+      "poison",
+      "flying"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/41.png",
+    "baseStatTotal": 245,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E8%B6%85%E9%9F%B3%E8%9D%A0"
+  },
+  {
+    "id": 42,
+    "name": "golbat",
+    "displayName": "Golbat",
+    "displayNameZh": "大嘴蝠",
+    "displayNameJa": "ゴルバット",
+    "types": [
+      "poison",
+      "flying"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/42.png",
+    "baseStatTotal": 455,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%A4%A7%E5%98%B4%E8%9D%A0"
+  },
+  {
+    "id": 43,
+    "name": "oddish",
+    "displayName": "Oddish",
+    "displayNameZh": "走路草",
+    "displayNameJa": "ナゾノクサ",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png",
+    "baseStatTotal": 320,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E8%B5%B0%E8%B7%AF%E8%8D%89"
+  },
+  {
+    "id": 44,
+    "name": "gloom",
+    "displayName": "Gloom",
+    "displayNameZh": "臭臭花",
+    "displayNameJa": "クサイハナ",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/44.png",
+    "baseStatTotal": 395,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E8%87%AD%E8%87%AD%E8%8A%B1"
+  },
+  {
+    "id": 45,
+    "name": "vileplume",
+    "displayName": "Vileplume",
+    "displayNameZh": "霸王花",
+    "displayNameJa": "ラフレシア",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/45.png",
+    "baseStatTotal": 490,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E9%9C%B8%E7%8E%8B%E8%8A%B1"
+  },
+  {
+    "id": 46,
+    "name": "paras",
+    "displayName": "Paras",
+    "displayNameZh": "派拉斯",
+    "displayNameJa": "パラス",
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/46.png",
+    "baseStatTotal": 285,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E6%B4%BE%E6%8B%89%E6%96%AF"
+  },
+  {
+    "id": 47,
+    "name": "parasect",
+    "displayName": "Parasect",
+    "displayNameZh": "派拉斯特",
+    "displayNameJa": "パラセクト",
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/47.png",
+    "baseStatTotal": 405,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E6%B4%BE%E6%8B%89%E6%96%AF%E7%89%B9"
+  },
+  {
+    "id": 48,
+    "name": "venonat",
+    "displayName": "Venonat",
+    "displayNameZh": "毛球",
+    "displayNameJa": "コンパン",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/48.png",
+    "baseStatTotal": 305,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E6%AF%9B%E7%90%83"
+  },
+  {
+    "id": 49,
+    "name": "venomoth",
+    "displayName": "Venomoth",
+    "displayNameZh": "摩魯蛾",
+    "displayNameJa": "モルフォン",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/49.png",
+    "baseStatTotal": 450,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E6%91%A9%E9%AD%AF%E8%9B%BE"
+  },
+  {
+    "id": 50,
+    "name": "diglett",
+    "displayName": "Diglett",
+    "displayNameZh": "地鼠",
+    "displayNameJa": "ディグダ",
+    "types": [
+      "ground"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/50.png",
+    "baseStatTotal": 265,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%9C%B0%E9%BC%A0"
+  },
+  {
+    "id": 51,
+    "name": "dugtrio",
+    "displayName": "Dugtrio",
+    "displayNameZh": "三地鼠",
+    "displayNameJa": "ダグトリオ",
+    "types": [
+      "ground"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/51.png",
+    "baseStatTotal": 425,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E4%B8%89%E5%9C%B0%E9%BC%A0"
+  },
+  {
+    "id": 52,
+    "name": "meowth",
+    "displayName": "Meowth",
+    "displayNameZh": "喵喵",
+    "displayNameJa": "ニャース",
+    "types": [
+      "normal"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png",
+    "baseStatTotal": 290,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%96%B5%E5%96%B5"
+  },
+  {
+    "id": 53,
+    "name": "persian",
+    "displayName": "Persian",
+    "displayNameZh": "貓老大",
+    "displayNameJa": "ペルシアン",
+    "types": [
+      "normal"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/53.png",
+    "baseStatTotal": 440,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E8%B2%93%E8%80%81%E5%A4%A7"
+  },
+  {
+    "id": 54,
+    "name": "psyduck",
+    "displayName": "Psyduck",
+    "displayNameZh": "可達鴨",
+    "displayNameJa": "コダック",
+    "types": [
+      "water"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png",
+    "baseStatTotal": 320,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%8F%AF%E9%81%94%E9%B4%A8"
+  },
+  {
+    "id": 55,
+    "name": "golduck",
+    "displayName": "Golduck",
+    "displayNameZh": "哥達鴨",
+    "displayNameJa": "ゴルダック",
+    "types": [
+      "water"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/55.png",
+    "baseStatTotal": 500,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%93%A5%E9%81%94%E9%B4%A8"
+  },
+  {
+    "id": 56,
+    "name": "mankey",
+    "displayName": "Mankey",
+    "displayNameZh": "猴怪",
+    "displayNameJa": "マンキー",
+    "types": [
+      "fighting"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/56.png",
+    "baseStatTotal": 305,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E7%8C%B4%E6%80%AA"
+  },
+  {
+    "id": 57,
+    "name": "primeape",
+    "displayName": "Primeape",
+    "displayNameZh": "火爆猴",
+    "displayNameJa": "オコリザル",
+    "types": [
+      "fighting"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/57.png",
+    "baseStatTotal": 455,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E7%81%AB%E7%88%86%E7%8C%B4"
+  },
+  {
+    "id": 58,
+    "name": "growlithe",
+    "displayName": "Growlithe",
+    "displayNameZh": "卡蒂狗",
+    "displayNameJa": "ガーディ",
+    "types": [
+      "fire"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/58.png",
+    "baseStatTotal": 350,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%8D%A1%E8%92%82%E7%8B%97"
+  },
+  {
+    "id": 59,
+    "name": "arcanine",
+    "displayName": "Arcanine",
+    "displayNameZh": "風速狗",
+    "displayNameJa": "ウインディ",
+    "types": [
+      "fire"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/59.png",
+    "baseStatTotal": 555,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E9%A2%A8%E9%80%9F%E7%8B%97"
+  },
+  {
+    "id": 60,
+    "name": "poliwag",
+    "displayName": "Poliwag",
+    "displayNameZh": "蚊香蝌蚪",
+    "displayNameJa": "ニョロモ",
+    "types": [
+      "water"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/60.png",
+    "baseStatTotal": 300,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E8%9A%8A%E9%A6%99%E8%9D%8C%E8%9A%AA"
+  },
+  {
+    "id": 61,
+    "name": "poliwhirl",
+    "displayName": "Poliwhirl",
+    "displayNameZh": "蚊香君",
+    "displayNameJa": "ニョロゾ",
+    "types": [
+      "water"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/61.png",
+    "baseStatTotal": 385,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E8%9A%8A%E9%A6%99%E5%90%9B"
+  },
+  {
+    "id": 62,
+    "name": "poliwrath",
+    "displayName": "Poliwrath",
+    "displayNameZh": "蚊香泳士",
+    "displayNameJa": "ニョロボン",
+    "types": [
+      "water",
+      "fighting"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/62.png",
+    "baseStatTotal": 510,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E8%9A%8A%E9%A6%99%E6%B3%B3%E5%A3%AB"
+  },
+  {
+    "id": 63,
+    "name": "abra",
+    "displayName": "Abra",
+    "displayNameZh": "凱西",
+    "displayNameJa": "ケーシィ",
+    "types": [
+      "psychic"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/63.png",
+    "baseStatTotal": 310,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%87%B1%E8%A5%BF"
+  },
+  {
+    "id": 64,
+    "name": "kadabra",
+    "displayName": "Kadabra",
+    "displayNameZh": "勇基拉",
+    "displayNameJa": "ユンゲラー",
+    "types": [
+      "psychic"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/64.png",
+    "baseStatTotal": 400,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%8B%87%E5%9F%BA%E6%8B%89"
+  },
+  {
+    "id": 65,
+    "name": "alakazam",
+    "displayName": "Alakazam",
+    "displayNameZh": "胡地",
+    "displayNameJa": "フーディン",
+    "types": [
+      "psychic"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png",
+    "baseStatTotal": 500,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E8%83%A1%E5%9C%B0"
+  },
+  {
+    "id": 66,
+    "name": "machop",
+    "displayName": "Machop",
+    "displayNameZh": "腕力",
+    "displayNameJa": "ワンリキー",
+    "types": [
+      "fighting"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png",
+    "baseStatTotal": 305,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E8%85%95%E5%8A%9B"
+  },
+  {
+    "id": 67,
+    "name": "machoke",
+    "displayName": "Machoke",
+    "displayNameZh": "豪力",
+    "displayNameJa": "ゴーリキー",
+    "types": [
+      "fighting"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/67.png",
+    "baseStatTotal": 405,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E8%B1%AA%E5%8A%9B"
+  },
+  {
+    "id": 68,
+    "name": "machamp",
+    "displayName": "Machamp",
+    "displayNameZh": "怪力",
+    "displayNameJa": "カイリキー",
+    "types": [
+      "fighting"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png",
+    "baseStatTotal": 505,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E6%80%AA%E5%8A%9B"
+  },
+  {
+    "id": 69,
+    "name": "bellsprout",
+    "displayName": "Bellsprout",
+    "displayNameZh": "喇叭芽",
+    "displayNameJa": "マダツボミ",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png",
+    "baseStatTotal": 300,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%96%87%E5%8F%AD%E8%8A%BD"
+  },
+  {
+    "id": 70,
+    "name": "weepinbell",
+    "displayName": "Weepinbell",
+    "displayNameZh": "口呆花",
+    "displayNameJa": "ウツドン",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/70.png",
+    "baseStatTotal": 390,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%8F%A3%E5%91%86%E8%8A%B1"
+  },
+  {
+    "id": 71,
+    "name": "victreebel",
+    "displayName": "Victreebel",
+    "displayNameZh": "大食花",
+    "displayNameJa": "ウツボット",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/71.png",
+    "baseStatTotal": 490,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%A4%A7%E9%A3%9F%E8%8A%B1"
+  },
+  {
+    "id": 72,
+    "name": "tentacool",
+    "displayName": "Tentacool",
+    "displayNameZh": "瑪瑙水母",
+    "displayNameJa": "メノクラゲ",
+    "types": [
+      "water",
+      "poison"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/72.png",
+    "baseStatTotal": 335,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E7%91%AA%E7%91%99%E6%B0%B4%E6%AF%8D"
+  },
+  {
+    "id": 73,
+    "name": "tentacruel",
+    "displayName": "Tentacruel",
+    "displayNameZh": "毒刺水母",
+    "displayNameJa": "ドククラゲ",
+    "types": [
+      "water",
+      "poison"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/73.png",
+    "baseStatTotal": 515,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E6%AF%92%E5%88%BA%E6%B0%B4%E6%AF%8D"
+  },
+  {
+    "id": 74,
+    "name": "geodude",
+    "displayName": "Geodude",
+    "displayNameZh": "小拳石",
+    "displayNameJa": "イシツブテ",
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/74.png",
+    "baseStatTotal": 300,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%B0%8F%E6%8B%B3%E7%9F%B3"
+  },
+  {
+    "id": 75,
+    "name": "graveler",
+    "displayName": "Graveler",
+    "displayNameZh": "隆隆石",
+    "displayNameJa": "ゴローン",
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/75.png",
+    "baseStatTotal": 390,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E9%9A%86%E9%9A%86%E7%9F%B3"
+  },
+  {
+    "id": 76,
+    "name": "golem",
+    "displayName": "Golem",
+    "displayNameZh": "隆隆岩",
+    "displayNameJa": "ゴローニャ",
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/76.png",
+    "baseStatTotal": 495,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E9%9A%86%E9%9A%86%E5%B2%A9"
+  },
+  {
+    "id": 77,
+    "name": "ponyta",
+    "displayName": "Ponyta",
+    "displayNameZh": "小火馬",
+    "displayNameJa": "ポニータ",
+    "types": [
+      "fire"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/77.png",
+    "baseStatTotal": 410,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%B0%8F%E7%81%AB%E9%A6%AC"
+  },
+  {
+    "id": 78,
+    "name": "rapidash",
+    "displayName": "Rapidash",
+    "displayNameZh": "烈焰馬",
+    "displayNameJa": "ギャロップ",
+    "types": [
+      "fire"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/78.png",
+    "baseStatTotal": 500,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E7%83%88%E7%84%B0%E9%A6%AC"
+  },
+  {
+    "id": 79,
+    "name": "slowpoke",
+    "displayName": "Slowpoke",
+    "displayNameZh": "呆呆獸",
+    "displayNameJa": "ヤドン",
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/79.png",
+    "baseStatTotal": 315,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%91%86%E5%91%86%E7%8D%B8"
+  },
+  {
+    "id": 80,
+    "name": "slowbro",
+    "displayName": "Slowbro",
+    "displayNameZh": "呆殼獸",
+    "displayNameJa": "ヤドラン",
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/80.png",
+    "baseStatTotal": 490,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%91%86%E6%AE%BC%E7%8D%B8"
+  },
+  {
+    "id": 81,
+    "name": "magnemite",
+    "displayName": "Magnemite",
+    "displayNameZh": "小磁怪",
+    "displayNameJa": "コイル",
+    "types": [
+      "electric",
+      "steel"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/81.png",
+    "baseStatTotal": 325,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%B0%8F%E7%A3%81%E6%80%AA"
+  },
+  {
+    "id": 82,
+    "name": "magneton",
+    "displayName": "Magneton",
+    "displayNameZh": "三合一磁怪",
+    "displayNameJa": "レアコイル",
+    "types": [
+      "electric",
+      "steel"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/82.png",
+    "baseStatTotal": 465,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E4%B8%89%E5%90%88%E4%B8%80%E7%A3%81%E6%80%AA"
+  },
+  {
+    "id": 83,
+    "name": "farfetchd",
+    "displayName": "Farfetch’d",
+    "displayNameZh": "大蔥鴨",
+    "displayNameJa": "カモネギ",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/83.png",
+    "baseStatTotal": 377,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%A4%A7%E8%94%A5%E9%B4%A8"
+  },
+  {
+    "id": 84,
+    "name": "doduo",
+    "displayName": "Doduo",
+    "displayNameZh": "嘟嘟",
+    "displayNameJa": "ドードー",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/84.png",
+    "baseStatTotal": 310,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%98%9F%E5%98%9F"
+  },
+  {
+    "id": 85,
+    "name": "dodrio",
+    "displayName": "Dodrio",
+    "displayNameZh": "嘟嘟利",
+    "displayNameJa": "ドードリオ",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/85.png",
+    "baseStatTotal": 470,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%98%9F%E5%98%9F%E5%88%A9"
+  },
+  {
+    "id": 86,
+    "name": "seel",
+    "displayName": "Seel",
+    "displayNameZh": "小海獅",
+    "displayNameJa": "パウワウ",
+    "types": [
+      "water"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/86.png",
+    "baseStatTotal": 325,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%B0%8F%E6%B5%B7%E7%8D%85"
+  },
+  {
+    "id": 87,
+    "name": "dewgong",
+    "displayName": "Dewgong",
+    "displayNameZh": "白海獅",
+    "displayNameJa": "ジュゴン",
+    "types": [
+      "water",
+      "ice"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/87.png",
+    "baseStatTotal": 475,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E7%99%BD%E6%B5%B7%E7%8D%85"
+  },
+  {
+    "id": 88,
+    "name": "grimer",
+    "displayName": "Grimer",
+    "displayNameZh": "臭泥",
+    "displayNameJa": "ベトベター",
+    "types": [
+      "poison"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/88.png",
+    "baseStatTotal": 325,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E8%87%AD%E6%B3%A5"
+  },
+  {
+    "id": 89,
+    "name": "muk",
+    "displayName": "Muk",
+    "displayNameZh": "臭臭泥",
+    "displayNameJa": "ベトベトン",
+    "types": [
+      "poison"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/89.png",
+    "baseStatTotal": 500,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E8%87%AD%E8%87%AD%E6%B3%A5"
+  },
+  {
+    "id": 90,
+    "name": "shellder",
+    "displayName": "Shellder",
+    "displayNameZh": "大舌貝",
+    "displayNameJa": "シェルダー",
+    "types": [
+      "water"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/90.png",
+    "baseStatTotal": 305,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%A4%A7%E8%88%8C%E8%B2%9D"
+  },
+  {
+    "id": 91,
+    "name": "cloyster",
+    "displayName": "Cloyster",
+    "displayNameZh": "刺甲貝",
+    "displayNameJa": "パルシェン",
+    "types": [
+      "water",
+      "ice"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/91.png",
+    "baseStatTotal": 525,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%88%BA%E7%94%B2%E8%B2%9D"
+  },
+  {
+    "id": 92,
+    "name": "gastly",
+    "displayName": "Gastly",
+    "displayNameZh": "鬼斯",
+    "displayNameJa": "ゴース",
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png",
+    "baseStatTotal": 310,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E9%AC%BC%E6%96%AF"
+  },
+  {
+    "id": 93,
+    "name": "haunter",
+    "displayName": "Haunter",
+    "displayNameZh": "鬼斯通",
+    "displayNameJa": "ゴースト",
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/93.png",
+    "baseStatTotal": 405,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E9%AC%BC%E6%96%AF%E9%80%9A"
+  },
+  {
+    "id": 94,
+    "name": "gengar",
+    "displayName": "Gengar",
+    "displayNameZh": "耿鬼",
+    "displayNameJa": "ゲンガー",
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png",
+    "baseStatTotal": 500,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E8%80%BF%E9%AC%BC"
+  },
+  {
+    "id": 95,
+    "name": "onix",
+    "displayName": "Onix",
+    "displayNameZh": "大岩蛇",
+    "displayNameJa": "イワーク",
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/95.png",
+    "baseStatTotal": 385,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%A4%A7%E5%B2%A9%E8%9B%87"
+  },
+  {
+    "id": 96,
+    "name": "drowzee",
+    "displayName": "Drowzee",
+    "displayNameZh": "催眠貘",
+    "displayNameJa": "スリープ",
+    "types": [
+      "psychic"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/96.png",
+    "baseStatTotal": 328,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%82%AC%E7%9C%A0%E8%B2%98"
+  },
+  {
+    "id": 97,
+    "name": "hypno",
+    "displayName": "Hypno",
+    "displayNameZh": "引夢貘人",
+    "displayNameJa": "スリーパー",
+    "types": [
+      "psychic"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/97.png",
+    "baseStatTotal": 483,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%BC%95%E5%A4%A2%E8%B2%98%E4%BA%BA"
+  },
+  {
+    "id": 98,
+    "name": "krabby",
+    "displayName": "Krabby",
+    "displayNameZh": "大鉗蟹",
+    "displayNameJa": "クラブ",
+    "types": [
+      "water"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/98.png",
+    "baseStatTotal": 325,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%A4%A7%E9%89%97%E8%9F%B9"
+  },
+  {
+    "id": 99,
+    "name": "kingler",
+    "displayName": "Kingler",
+    "displayNameZh": "巨鉗蟹",
+    "displayNameJa": "キングラー",
+    "types": [
+      "water"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/99.png",
+    "baseStatTotal": 475,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%B7%A8%E9%89%97%E8%9F%B9"
+  },
+  {
+    "id": 100,
+    "name": "voltorb",
+    "displayName": "Voltorb",
+    "displayNameZh": "霹靂電球",
+    "displayNameJa": "ビリリダマ",
+    "types": [
+      "electric"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/100.png",
+    "baseStatTotal": 330,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E9%9C%B9%E9%9D%82%E9%9B%BB%E7%90%83"
+  },
+  {
+    "id": 101,
+    "name": "electrode",
+    "displayName": "Electrode",
+    "displayNameZh": "頑皮雷彈",
+    "displayNameJa": "マルマイン",
+    "types": [
+      "electric"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/101.png",
+    "baseStatTotal": 490,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E9%A0%91%E7%9A%AE%E9%9B%B7%E5%BD%88"
+  },
+  {
+    "id": 102,
+    "name": "exeggcute",
+    "displayName": "Exeggcute",
+    "displayNameZh": "蛋蛋",
+    "displayNameJa": "タマタマ",
+    "types": [
+      "grass",
+      "psychic"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/102.png",
+    "baseStatTotal": 325,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E8%9B%8B%E8%9B%8B"
+  },
+  {
+    "id": 103,
+    "name": "exeggutor",
+    "displayName": "Exeggutor",
+    "displayNameZh": "椰蛋樹",
+    "displayNameJa": "ナッシー",
+    "types": [
+      "grass",
+      "psychic"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/103.png",
+    "baseStatTotal": 530,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E6%A4%B0%E8%9B%8B%E6%A8%B9"
+  },
+  {
+    "id": 104,
+    "name": "cubone",
+    "displayName": "Cubone",
+    "displayNameZh": "卡拉卡拉",
+    "displayNameJa": "カラカラ",
+    "types": [
+      "ground"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/104.png",
+    "baseStatTotal": 320,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%8D%A1%E6%8B%89%E5%8D%A1%E6%8B%89"
+  },
+  {
+    "id": 105,
+    "name": "marowak",
+    "displayName": "Marowak",
+    "displayNameZh": "嘎啦嘎啦",
+    "displayNameJa": "ガラガラ",
+    "types": [
+      "ground"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/105.png",
+    "baseStatTotal": 425,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%98%8E%E5%95%A6%E5%98%8E%E5%95%A6"
+  },
+  {
+    "id": 106,
+    "name": "hitmonlee",
+    "displayName": "Hitmonlee",
+    "displayNameZh": "飛腿郎",
+    "displayNameJa": "サワムラー",
+    "types": [
+      "fighting"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/106.png",
+    "baseStatTotal": 455,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E9%A3%9B%E8%85%BF%E9%83%8E"
+  },
+  {
+    "id": 107,
+    "name": "hitmonchan",
+    "displayName": "Hitmonchan",
+    "displayNameZh": "快拳郎",
+    "displayNameJa": "エビワラー",
+    "types": [
+      "fighting"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/107.png",
+    "baseStatTotal": 455,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%BF%AB%E6%8B%B3%E9%83%8E"
+  },
+  {
+    "id": 108,
+    "name": "lickitung",
+    "displayName": "Lickitung",
+    "displayNameZh": "大舌頭",
+    "displayNameJa": "ベロリンガ",
+    "types": [
+      "normal"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/108.png",
+    "baseStatTotal": 385,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%A4%A7%E8%88%8C%E9%A0%AD"
+  },
+  {
+    "id": 109,
+    "name": "koffing",
+    "displayName": "Koffing",
+    "displayNameZh": "瓦斯彈",
+    "displayNameJa": "ドガース",
+    "types": [
+      "poison"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/109.png",
+    "baseStatTotal": 340,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E7%93%A6%E6%96%AF%E5%BD%88"
+  },
+  {
+    "id": 110,
+    "name": "weezing",
+    "displayName": "Weezing",
+    "displayNameZh": "雙彈瓦斯",
+    "displayNameJa": "マタドガス",
+    "types": [
+      "poison"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/110.png",
+    "baseStatTotal": 490,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E9%9B%99%E5%BD%88%E7%93%A6%E6%96%AF"
+  },
+  {
+    "id": 111,
+    "name": "rhyhorn",
+    "displayName": "Rhyhorn",
+    "displayNameZh": "獨角犀牛",
+    "displayNameJa": "サイホーン",
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/111.png",
+    "baseStatTotal": 345,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E7%8D%A8%E8%A7%92%E7%8A%80%E7%89%9B"
+  },
+  {
+    "id": 112,
+    "name": "rhydon",
+    "displayName": "Rhydon",
+    "displayNameZh": "鑽角犀獸",
+    "displayNameJa": "サイドン",
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/112.png",
+    "baseStatTotal": 485,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E9%91%BD%E8%A7%92%E7%8A%80%E7%8D%B8"
+  },
+  {
+    "id": 113,
+    "name": "chansey",
+    "displayName": "Chansey",
+    "displayNameZh": "吉利蛋",
+    "displayNameJa": "ラッキー",
+    "types": [
+      "normal"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
+    "baseStatTotal": 450,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%90%89%E5%88%A9%E8%9B%8B"
+  },
+  {
+    "id": 114,
+    "name": "tangela",
+    "displayName": "Tangela",
+    "displayNameZh": "蔓藤怪",
+    "displayNameJa": "モンジャラ",
+    "types": [
+      "grass"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/114.png",
+    "baseStatTotal": 435,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E8%94%93%E8%97%A4%E6%80%AA"
+  },
+  {
+    "id": 115,
+    "name": "kangaskhan",
+    "displayName": "Kangaskhan",
+    "displayNameZh": "袋獸",
+    "displayNameJa": "ガルーラ",
+    "types": [
+      "normal"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/115.png",
+    "baseStatTotal": 490,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E8%A2%8B%E7%8D%B8"
+  },
+  {
+    "id": 116,
+    "name": "horsea",
+    "displayName": "Horsea",
+    "displayNameZh": "墨海馬",
+    "displayNameJa": "タッツー",
+    "types": [
+      "water"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/116.png",
+    "baseStatTotal": 295,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%A2%A8%E6%B5%B7%E9%A6%AC"
+  },
+  {
+    "id": 117,
+    "name": "seadra",
+    "displayName": "Seadra",
+    "displayNameZh": "海刺龍",
+    "displayNameJa": "シードラ",
+    "types": [
+      "water"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/117.png",
+    "baseStatTotal": 440,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E6%B5%B7%E5%88%BA%E9%BE%8D"
+  },
+  {
+    "id": 118,
+    "name": "goldeen",
+    "displayName": "Goldeen",
+    "displayNameZh": "角金魚",
+    "displayNameJa": "トサキント",
+    "types": [
+      "water"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/118.png",
+    "baseStatTotal": 320,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E8%A7%92%E9%87%91%E9%AD%9A"
+  },
+  {
+    "id": 119,
+    "name": "seaking",
+    "displayName": "Seaking",
+    "displayNameZh": "金魚王",
+    "displayNameJa": "アズマオウ",
+    "types": [
+      "water"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/119.png",
+    "baseStatTotal": 450,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E9%87%91%E9%AD%9A%E7%8E%8B"
+  },
+  {
+    "id": 120,
+    "name": "staryu",
+    "displayName": "Staryu",
+    "displayNameZh": "海星星",
+    "displayNameJa": "ヒトデマン",
+    "types": [
+      "water"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/120.png",
+    "baseStatTotal": 340,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E6%B5%B7%E6%98%9F%E6%98%9F"
+  },
+  {
+    "id": 121,
+    "name": "starmie",
+    "displayName": "Starmie",
+    "displayNameZh": "寶石海星",
+    "displayNameJa": "スターミー",
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/121.png",
+    "baseStatTotal": 520,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%AF%B6%E7%9F%B3%E6%B5%B7%E6%98%9F"
+  },
+  {
+    "id": 122,
+    "name": "mr-mime",
+    "displayName": "Mr. Mime",
+    "displayNameZh": "魔牆人偶",
+    "displayNameJa": "バリヤード",
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/122.png",
+    "baseStatTotal": 460,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E9%AD%94%E7%89%86%E4%BA%BA%E5%81%B6"
+  },
+  {
+    "id": 123,
+    "name": "scyther",
+    "displayName": "Scyther",
+    "displayNameZh": "飛天螳螂",
+    "displayNameJa": "ストライク",
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/123.png",
+    "baseStatTotal": 500,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E9%A3%9B%E5%A4%A9%E8%9E%B3%E8%9E%82"
+  },
+  {
+    "id": 124,
+    "name": "jynx",
+    "displayName": "Jynx",
+    "displayNameZh": "迷唇姐",
+    "displayNameJa": "ルージュラ",
+    "types": [
+      "ice",
+      "psychic"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/124.png",
+    "baseStatTotal": 455,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E8%BF%B7%E5%94%87%E5%A7%90"
+  },
+  {
+    "id": 125,
+    "name": "electabuzz",
+    "displayName": "Electabuzz",
+    "displayNameZh": "電擊獸",
+    "displayNameJa": "エレブー",
+    "types": [
+      "electric"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/125.png",
+    "baseStatTotal": 490,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E9%9B%BB%E6%93%8A%E7%8D%B8"
+  },
+  {
+    "id": 126,
+    "name": "magmar",
+    "displayName": "Magmar",
+    "displayNameZh": "鴨嘴火獸",
+    "displayNameJa": "ブーバー",
+    "types": [
+      "fire"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/126.png",
+    "baseStatTotal": 495,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E9%B4%A8%E5%98%B4%E7%81%AB%E7%8D%B8"
+  },
+  {
+    "id": 127,
+    "name": "pinsir",
+    "displayName": "Pinsir",
+    "displayNameZh": "凱羅斯",
+    "displayNameJa": "カイロス",
+    "types": [
+      "bug"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png",
+    "baseStatTotal": 500,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%87%B1%E7%BE%85%E6%96%AF"
+  },
+  {
+    "id": 128,
+    "name": "tauros",
+    "displayName": "Tauros",
+    "displayNameZh": "肯泰羅",
+    "displayNameJa": "ケンタロス",
+    "types": [
+      "normal"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/128.png",
+    "baseStatTotal": 490,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E8%82%AF%E6%B3%B0%E7%BE%85"
+  },
+  {
+    "id": 129,
+    "name": "magikarp",
+    "displayName": "Magikarp",
+    "displayNameZh": "鯉魚王",
+    "displayNameJa": "コイキング",
+    "types": [
+      "water"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
+    "baseStatTotal": 200,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E9%AF%89%E9%AD%9A%E7%8E%8B"
+  },
+  {
+    "id": 130,
+    "name": "gyarados",
+    "displayName": "Gyarados",
+    "displayNameZh": "暴鯉龍",
+    "displayNameJa": "ギャラドス",
+    "types": [
+      "water",
+      "flying"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png",
+    "baseStatTotal": 540,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E6%9A%B4%E9%AF%89%E9%BE%8D"
+  },
+  {
+    "id": 131,
+    "name": "lapras",
+    "displayName": "Lapras",
+    "displayNameZh": "拉普拉斯",
+    "displayNameJa": "ラプラス",
+    "types": [
+      "water",
+      "ice"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/131.png",
+    "baseStatTotal": 535,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E6%8B%89%E6%99%AE%E6%8B%89%E6%96%AF"
+  },
+  {
+    "id": 132,
+    "name": "ditto",
+    "displayName": "Ditto",
+    "displayNameZh": "百變怪",
+    "displayNameJa": "メタモン",
+    "types": [
+      "normal"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png",
+    "baseStatTotal": 288,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E7%99%BE%E8%AE%8A%E6%80%AA"
+  },
+  {
+    "id": 133,
+    "name": "eevee",
+    "displayName": "Eevee",
+    "displayNameZh": "伊布",
+    "displayNameJa": "イーブイ",
+    "types": [
+      "normal"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png",
+    "baseStatTotal": 325,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E4%BC%8A%E5%B8%83"
+  },
+  {
+    "id": 134,
+    "name": "vaporeon",
+    "displayName": "Vaporeon",
+    "displayNameZh": "水伊布",
+    "displayNameJa": "シャワーズ",
+    "types": [
+      "water"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png",
+    "baseStatTotal": 525,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E6%B0%B4%E4%BC%8A%E5%B8%83"
+  },
+  {
+    "id": 135,
+    "name": "jolteon",
+    "displayName": "Jolteon",
+    "displayNameZh": "雷伊布",
+    "displayNameJa": "サンダース",
+    "types": [
+      "electric"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png",
+    "baseStatTotal": 525,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E9%9B%B7%E4%BC%8A%E5%B8%83"
+  },
+  {
+    "id": 136,
+    "name": "flareon",
+    "displayName": "Flareon",
+    "displayNameZh": "火伊布",
+    "displayNameJa": "ブースター",
+    "types": [
+      "fire"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png",
+    "baseStatTotal": 525,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E7%81%AB%E4%BC%8A%E5%B8%83"
+  },
+  {
+    "id": 137,
+    "name": "porygon",
+    "displayName": "Porygon",
+    "displayNameZh": "多邊獸",
+    "displayNameJa": "ポリゴン",
+    "types": [
+      "normal"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/137.png",
+    "baseStatTotal": 395,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%A4%9A%E9%82%8A%E7%8D%B8"
+  },
+  {
+    "id": 138,
+    "name": "omanyte",
+    "displayName": "Omanyte",
+    "displayNameZh": "菊石獸",
+    "displayNameJa": "オムナイト",
+    "types": [
+      "rock",
+      "water"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/138.png",
+    "baseStatTotal": 355,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E8%8F%8A%E7%9F%B3%E7%8D%B8"
+  },
+  {
+    "id": 139,
+    "name": "omastar",
+    "displayName": "Omastar",
+    "displayNameZh": "多刺菊石獸",
+    "displayNameJa": "オムスター",
+    "types": [
+      "rock",
+      "water"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/139.png",
+    "baseStatTotal": 495,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%A4%9A%E5%88%BA%E8%8F%8A%E7%9F%B3%E7%8D%B8"
+  },
+  {
+    "id": 140,
+    "name": "kabuto",
+    "displayName": "Kabuto",
+    "displayNameZh": "化石盔",
+    "displayNameJa": "カブト",
+    "types": [
+      "rock",
+      "water"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/140.png",
+    "baseStatTotal": 355,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%8C%96%E7%9F%B3%E7%9B%94"
+  },
+  {
+    "id": 141,
+    "name": "kabutops",
+    "displayName": "Kabutops",
+    "displayNameZh": "鐮刀盔",
+    "displayNameJa": "カブトプス",
+    "types": [
+      "rock",
+      "water"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/141.png",
+    "baseStatTotal": 495,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E9%90%AE%E5%88%80%E7%9B%94"
+  },
+  {
+    "id": 142,
+    "name": "aerodactyl",
+    "displayName": "Aerodactyl",
+    "displayNameZh": "化石翼龍",
+    "displayNameJa": "プテラ",
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/142.png",
+    "baseStatTotal": 515,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%8C%96%E7%9F%B3%E7%BF%BC%E9%BE%8D"
+  },
+  {
+    "id": 143,
+    "name": "snorlax",
+    "displayName": "Snorlax",
+    "displayNameZh": "卡比獸",
+    "displayNameJa": "カビゴン",
+    "types": [
+      "normal"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png",
+    "baseStatTotal": 540,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%8D%A1%E6%AF%94%E7%8D%B8"
+  },
+  {
+    "id": 144,
+    "name": "articuno",
+    "displayName": "Articuno",
+    "displayNameZh": "急凍鳥",
+    "displayNameJa": "フリーザー",
+    "types": [
+      "ice",
+      "flying"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
+    "baseStatTotal": 580,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E6%80%A5%E5%87%8D%E9%B3%A5"
+  },
+  {
+    "id": 145,
+    "name": "zapdos",
+    "displayName": "Zapdos",
+    "displayNameZh": "閃電鳥",
+    "displayNameJa": "サンダー",
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
+    "baseStatTotal": 580,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E9%96%83%E9%9B%BB%E9%B3%A5"
+  },
+  {
+    "id": 146,
+    "name": "moltres",
+    "displayName": "Moltres",
+    "displayNameZh": "火焰鳥",
+    "displayNameJa": "ファイヤー",
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
+    "baseStatTotal": 580,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E7%81%AB%E7%84%B0%E9%B3%A5"
+  },
+  {
+    "id": 147,
+    "name": "dratini",
+    "displayName": "Dratini",
+    "displayNameZh": "迷你龍",
+    "displayNameJa": "ミニリュウ",
+    "types": [
+      "dragon"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/147.png",
+    "baseStatTotal": 300,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E8%BF%B7%E4%BD%A0%E9%BE%8D"
+  },
+  {
+    "id": 148,
+    "name": "dragonair",
+    "displayName": "Dragonair",
+    "displayNameZh": "哈克龍",
+    "displayNameJa": "ハクリュー",
+    "types": [
+      "dragon"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/148.png",
+    "baseStatTotal": 420,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%93%88%E5%85%8B%E9%BE%8D"
+  },
+  {
+    "id": 149,
+    "name": "dragonite",
+    "displayName": "Dragonite",
+    "displayNameZh": "快龍",
+    "displayNameJa": "カイリュー",
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
+    "baseStatTotal": 600,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%BF%AB%E9%BE%8D"
+  },
+  {
+    "id": 150,
+    "name": "mewtwo",
+    "displayName": "Mewtwo",
+    "displayNameZh": "超夢",
+    "displayNameJa": "ミュウツー",
+    "types": [
+      "psychic"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png",
+    "baseStatTotal": 680,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E8%B6%85%E5%A4%A2"
+  },
+  {
+    "id": 151,
+    "name": "mew",
+    "displayName": "Mew",
+    "displayNameZh": "夢幻",
+    "displayNameJa": "ミュウ",
+    "types": [
+      "psychic"
+    ],
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/151.png",
+    "baseStatTotal": 600,
+    "wikiUrl": "https://wiki.52poke.com/wiki/%E5%A4%A2%E5%B9%BB"
+  }
+]

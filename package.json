@@ -1,0 +1,16 @@
+{
+  "name": "pkm",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "個人寶可夢圖鑑 — 靜態本機網頁（繁中／日文 UI，Gen 1）",
+  "scripts": {
+    "ingest": "node scripts/ingest.mjs",
+    "build:types": "tsc --emitDeclarationOnly",
+    "serve": "npx --yes serve ."
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

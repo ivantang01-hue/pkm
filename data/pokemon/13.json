@@ -1,0 +1,106 @@
+{
+  "id": 13,
+  "name": "weedle",
+  "displayName": "Weedle",
+  "displayNameZh": "獨角蟲",
+  "displayNameJa": "ビードル",
+  "species": "weedle",
+  "generation": 1,
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 35,
+    "defense": 30,
+    "specialAttack": 20,
+    "specialDefense": 20,
+    "speed": 50
+  },
+  "abilities": [
+    {
+      "id": 19,
+      "name": "shield-dust",
+      "displayName": "Shield Dust",
+      "displayNameZh": "鱗粉",
+      "displayNameJa": "りんぷん",
+      "isHidden": false,
+      "slot": 1,
+      "shortEffect": "Protects against incoming moves' extra effects."
+    },
+    {
+      "id": 50,
+      "name": "run-away",
+      "displayName": "Run Away",
+      "displayNameZh": "逃跑",
+      "displayNameJa": "にげあし",
+      "isHidden": true,
+      "slot": 3,
+      "shortEffect": "Ensures success fleeing from wild battles."
+    }
+  ],
+  "moves": [
+    {
+      "id": 40,
+      "name": "poison-sting",
+      "displayName": "Poison Sting",
+      "displayNameZh": "毒針",
+      "displayNameJa": "どくばり",
+      "type": "poison",
+      "damageClass": "physical",
+      "power": 15,
+      "accuracy": 100,
+      "pp": 35,
+      "learnMethod": "level-up",
+      "levelLearnedAt": 1
+    },
+    {
+      "id": 81,
+      "name": "string-shot",
+      "displayName": "String Shot",
+      "displayNameZh": "吐絲",
+      "displayNameJa": "いとをはく",
+      "type": "bug",
+      "damageClass": "status",
+      "power": null,
+      "accuracy": 95,
+      "pp": 40,
+      "learnMethod": "level-up",
+      "levelLearnedAt": 1
+    },
+    {
+      "id": 450,
+      "name": "bug-bite",
+      "displayName": "Bug Bite",
+      "displayNameZh": "蟲咬",
+      "displayNameJa": "むしくい",
+      "type": "bug",
+      "damageClass": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "learnMethod": "level-up",
+      "levelLearnedAt": 9
+    },
+    {
+      "id": 527,
+      "name": "electroweb",
+      "displayName": "Electroweb",
+      "displayNameZh": "電網",
+      "displayNameJa": "エレキネット",
+      "type": "electric",
+      "damageClass": "special",
+      "power": 55,
+      "accuracy": 95,
+      "pp": 15,
+      "learnMethod": "tutor",
+      "levelLearnedAt": null
+    }
+  ],
+  "height": 3,
+  "weight": 32,
+  "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png",
+  "shinySpriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/13.png",
+  "wikiUrl": "https://wiki.52poke.com/wiki/%E7%8D%A8%E8%A7%92%E8%9F%B2"
+}

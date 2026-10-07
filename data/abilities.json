@@ -1,0 +1,1651 @@
+[
+  {
+    "id": 1,
+    "name": "stench",
+    "displayName": "Stench",
+    "displayNameZh": "惡臭",
+    "displayNameJa": "あくしゅう",
+    "shortEffect": "Has a 10% chance of making target Pokémon flinch with each hit.",
+    "effect": "This Pokémon's damaging moves have a 10% chance to make the target flinch with each hit if they do not already cause flinching as a secondary effect.\n\nThis ability does not stack with a held item.\n\nOverworld: The wild encounter rate is halved while this Pokémon is first in the party.",
+    "pokemonIds": [
+      44,
+      88,
+      89,
+      109,
+      110
+    ]
+  },
+  {
+    "id": 4,
+    "name": "battle-armor",
+    "displayName": "Battle Armor",
+    "displayNameZh": "戰鬥盔甲",
+    "displayNameJa": "カブトアーマー",
+    "shortEffect": "Protects against critical hits.",
+    "effect": "Moves cannot score critical hits against this Pokémon.\n\nThis ability functions identically to Shell Armor.",
+    "pokemonIds": [
+      104,
+      105,
+      140,
+      141
+    ]
+  },
+  {
+    "id": 5,
+    "name": "sturdy",
+    "displayName": "Sturdy",
+    "displayNameZh": "結實",
+    "displayNameJa": "がんじょう",
+    "shortEffect": "Prevents being KOed from full HP, leaving 1 HP instead.  Protects against the one-hit KO moves regardless of HP.",
+    "effect": "When this Pokémon is at full HP, any hit that would knock it out will instead leave it with 1 HP.  Regardless of its current HP, it is also immune to the one-hit KO moves: Fissure, Guillotine, Horn Drill, and Sheer Cold.\n\nIf this Pokémon is holding a Focus Sash, this ability takes precedence and the item will not be consumed.",
+    "pokemonIds": [
+      74,
+      75,
+      76,
+      81,
+      82,
+      95
+    ]
+  },
+  {
+    "id": 6,
+    "name": "damp",
+    "displayName": "Damp",
+    "displayNameZh": "濕氣",
+    "displayNameJa": "しめりけ",
+    "shortEffect": "Prevents Self-Destruct, Explosion, and Aftermath from working while the Pokémon is in battle.",
+    "effect": "While this Pokémon is in battle, Self-Destruct and Explosion will fail and Aftermath will not take effect.",
+    "pokemonIds": [
+      46,
+      47,
+      54,
+      55,
+      60,
+      61,
+      62,
+      116,
+      117
+    ]
+  },
+  {
+    "id": 7,
+    "name": "limber",
+    "displayName": "Limber",
+    "displayNameZh": "柔軟",
+    "displayNameJa": "じゅうなん",
+    "shortEffect": "Prevents paralysis.",
+    "effect": "This Pokémon cannot be paralyzed.\n\nIf a Pokémon is paralyzed and acquires this ability, its paralysis is healed; this includes when regaining a lost ability upon leaving battle.",
+    "pokemonIds": [
+      53,
+      106,
+      132
+    ]
+  },
+  {
+    "id": 8,
+    "name": "sand-veil",
+    "displayName": "Sand Veil",
+    "displayNameZh": "沙隱",
+    "displayNameJa": "すながくれ",
+    "shortEffect": "Increases evasion to 1.25× during a sandstorm.  Protects against sandstorm damage.",
+    "effect": "During a sandstorm, this Pokémon has 1.25× its evasion, and it does not take sandstorm damage regardless of type.\n\nThe evasion bonus does not count as a stat modifier.\n\nOverworld: If the lead Pokémon has this ability, the wild encounter rate is halved in a sandstorm.",
+    "pokemonIds": [
+      27,
+      28,
+      50,
+      51,
+      74,
+      75,
+      76
+    ]
+  },
+  {
+    "id": 9,
+    "name": "static",
+    "displayName": "Static",
+    "displayNameZh": "靜電",
+    "displayNameJa": "せいでんき",
+    "shortEffect": "Has a 30% chance of paralyzing attacking Pokémon on contact.",
+    "effect": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being paralyzed.\n\nPokémon that are immune to Electric-type moves can still be paralyzed by this ability.\n\nOverworld: If the lead Pokémon has this ability, there is a 50% chance that encounters will be with an Electric Pokémon, if applicable.",
+    "pokemonIds": [
+      25,
+      26,
+      100,
+      101,
+      125,
+      145
+    ]
+  },
+  {
+    "id": 10,
+    "name": "volt-absorb",
+    "displayName": "Volt Absorb",
+    "displayNameZh": "蓄電",
+    "displayNameJa": "ちくでん",
+    "shortEffect": "Absorbs Electric moves, healing for 1/4 max HP.",
+    "effect": "Whenever an Electric-type move hits this Pokémon, it heals for 1/4 of its maximum HP, negating any other effect on it.\n\nThis ability will not take effect if this Pokémon is Ground-type and thus immune to Electric moves.  Electric moves will ignore this Pokémon's Substitute.\n\nThis effect includes non-damaging moves, i.e. Thunder Wave.",
+    "pokemonIds": [
+      135
+    ]
+  },
+  {
+    "id": 11,
+    "name": "water-absorb",
+    "displayName": "Water Absorb",
+    "displayNameZh": "儲水",
+    "displayNameJa": "ちょすい",
+    "shortEffect": "Absorbs Water moves, healing for 1/4 max HP.",
+    "effect": "Whenever a Water-type move hits this Pokémon, it heals for 1/4 of its maximum HP, negating any other effect on it.\n\nWater moves will ignore this Pokémon's Substitute.",
+    "pokemonIds": [
+      60,
+      61,
+      62,
+      131,
+      134
+    ]
+  },
+  {
+    "id": 12,
+    "name": "oblivious",
+    "displayName": "Oblivious",
+    "displayNameZh": "遲鈍",
+    "displayNameJa": "どんかん",
+    "shortEffect": "Prevents infatuation and protects against Captivate.",
+    "effect": "This Pokémon cannot be infatuated and is immune to Captivate.\n\nIf a Pokémon is infatuated and acquires this ability, its infatuation is cleared.",
+    "pokemonIds": [
+      79,
+      80,
+      108,
+      124
+    ]
+  },
+  {
+    "id": 13,
+    "name": "cloud-nine",
+    "displayName": "Cloud Nine",
+    "displayNameZh": "無關天氣",
+    "displayNameJa": "ノーてんき",
+    "shortEffect": "Negates all effects of weather, but does not prevent the weather itself.",
+    "effect": "While this Pokémon is in battle, weather can still be in play, but will not have any of its effects.\n\nThis ability functions identically to Air Lock.",
+    "pokemonIds": [
+      54,
+      55,
+      108
+    ]
+  },
+  {
+    "id": 14,
+    "name": "compound-eyes",
+    "displayName": "Compound Eyes",
+    "displayNameZh": "複眼",
+    "displayNameJa": "ふくがん",
+    "shortEffect": "Increases moves' accuracy to 1.3×.",
+    "effect": "This Pokémon's moves have 1.3× their accuracy.\n\nThis ability has no effect on the one-hit KO moves (Fissure, Guillotine, Horn Drill, and Sheer Cold).\n\nOverworld: If the first Pokémon in the party has this ability, the chance of a wild Pokémon holding a particular item is raised from 50%, 5%, or 1% to 60%, 20%, or 5%, respectively.",
+    "pokemonIds": [
+      12,
+      48
+    ]
+  },
+  {
+    "id": 15,
+    "name": "insomnia",
+    "displayName": "Insomnia",
+    "displayNameZh": "不眠",
+    "displayNameJa": "ふみん",
+    "shortEffect": "Prevents sleep.",
+    "effect": "This Pokémon cannot be asleep.\n\nThis causes Rest to fail altogether.  If a Pokémon is asleep and acquires this ability, it will immediately wake up; this includes when regaining a lost ability upon leaving battle.\n\nThis ability functions identically to Vital Spirit in battle.",
+    "pokemonIds": [
+      96,
+      97
+    ]
+  },
+  {
+    "id": 17,
+    "name": "immunity",
+    "displayName": "Immunity",
+    "displayNameZh": "免疫",
+    "displayNameJa": "めんえき",
+    "shortEffect": "Prevents poison.",
+    "effect": "This Pokémon cannot be poisoned.  This includes bad poison.\n\nIf a Pokémon is poisoned and acquires this ability, its poison is healed; this includes when regaining a lost ability upon leaving battle.",
+    "pokemonIds": [
+      143
+    ]
+  },
+  {
+    "id": 18,
+    "name": "flash-fire",
+    "displayName": "Flash Fire",
+    "displayNameZh": "引火",
+    "displayNameJa": "もらいび",
+    "shortEffect": "Protects against Fire moves.  Once one has been blocked, the Pokémon's own Fire moves inflict 1.5× damage until it leaves battle.",
+    "effect": "This Pokémon is immune to Fire-type moves.  Once this Pokémon has been hit by a Fire move, its own Fire moves will inflict 1.5× as much damage until it leaves battle.\n\nThis ability has no effect while the Pokémon is frozen.  The Fire damage bonus is retained even if the Pokémon is frozen and thawed or the ability is lost or disabled.  Fire moves will ignore this Pokémon's Substitute.  This ability takes effect even on non-damaging moves, i.e. Will-O-Wisp.",
+    "pokemonIds": [
+      37,
+      38,
+      58,
+      59,
+      77,
+      78,
+      136
+    ]
+  },
+  {
+    "id": 19,
+    "name": "shield-dust",
+    "displayName": "Shield Dust",
+    "displayNameZh": "鱗粉",
+    "displayNameJa": "りんぷん",
+    "shortEffect": "Protects against incoming moves' extra effects.",
+    "effect": "This Pokémon is immune to the extra effects of moves used against it.\n\nAn extra effect is a move's chance, listed as an \"effect chance\", to inflict a status ailment, cause a stat change, or make the target flinch in addition to the move's main effect.  For example, Thunder Shock's paralysis is an extra effect, but Thunder Wave's is not, nor are Knock Off's item removal and Air Cutter's increased critical hit rate.",
+    "pokemonIds": [
+      10,
+      13,
+      49
+    ]
+  },
+  {
+    "id": 20,
+    "name": "own-tempo",
+    "displayName": "Own Tempo",
+    "displayNameZh": "我行我素",
+    "displayNameJa": "マイペース",
+    "shortEffect": "Prevents confusion.",
+    "effect": "This Pokémon cannot be confused.\n\nIf a Pokémon is confused and acquires this ability, its confusion will immediately be healed.",
+    "pokemonIds": [
+      79,
+      80,
+      108
+    ]
+  },
+  {
+    "id": 22,
+    "name": "intimidate",
+    "displayName": "Intimidate",
+    "displayNameZh": "威嚇",
+    "displayNameJa": "いかく",
+    "shortEffect": "Lowers opponents' Attack one stage upon entering battle.",
+    "effect": "When this Pokémon enters battle, the opponent's Attack is lowered by one stage.  In a double battle, both opponents are affected.\n\nThis ability also takes effect when acquired during a battle, but will not take effect again if lost and reobtained without leaving battle.\n\nThis ability has no effect on an opponent that has a Substitute.\n\nOverworld: If the first Pokémon in the party has this ability, any random encounter with a Pokémon five or more levels lower than it has a 50% chance of being skipped.",
+    "pokemonIds": [
+      23,
+      24,
+      58,
+      59,
+      128,
+      130
+    ]
+  },
+  {
+    "id": 26,
+    "name": "levitate",
+    "displayName": "Levitate",
+    "displayNameZh": "飄浮",
+    "displayNameJa": "ふゆう",
+    "shortEffect": "Evades Ground moves.",
+    "effect": "This Pokémon is immune to Ground-type moves, Spikes, Toxic Spikes, and Arena Trap.\n\nThis ability is disabled during Gravity or Ingrain, or while holding an Iron Ball.  This ability is not disabled during Roost.",
+    "pokemonIds": [
+      92,
+      93,
+      109,
+      110
+    ]
+  },
+  {
+    "id": 27,
+    "name": "effect-spore",
+    "displayName": "Effect Spore",
+    "displayNameZh": "孢子",
+    "displayNameJa": "ほうし",
+    "shortEffect": "Has a 30% chance of inflcting either paralysis, poison, or sleep on attacking Pokémon on contact.",
+    "effect": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being paralyzed, poisoned, or put to sleep, chosen at random.\n\nNothing is done to compensate if the move's user is immune to one of these ailments; there is simply a lower chance that the move's user will be affected.",
+    "pokemonIds": [
+      45,
+      46,
+      47
+    ]
+  },
+  {
+    "id": 28,
+    "name": "synchronize",
+    "displayName": "Synchronize",
+    "displayNameZh": "同步",
+    "displayNameJa": "シンクロ",
+    "shortEffect": "Copies burns, paralysis, and poison received onto the Pokémon that inflicted them.",
+    "effect": "Whenever this Pokémon is burned, paralyzed, or poisoned, the Pokémon who gave this Pokémon that ailment is also given the ailment.\n\nThis ability passes back bad poison when this Pokémon is badly poisoned.  This ability cannot pass on a status ailment that the Pokémon did not directly receive from another Pokémon, such as the poison from Toxic Spikes or the burn from a Flame Orb.\n\nOverworld: If the lead Pokémon has this ability, wild Pokémon have a 50% chance of having the lead Pokémon's nature, and a 50% chance of being given a random nature as usual, including the lead Pokémon's nature.  This does not work on Pokémon received outside of battle or roaming legendaries.",
+    "pokemonIds": [
+      63,
+      64,
+      65,
+      151
+    ]
+  },
+  {
+    "id": 29,
+    "name": "clear-body",
+    "displayName": "Clear Body",
+    "displayNameZh": "恆淨之軀",
+    "displayNameJa": "クリアボディ",
+    "shortEffect": "Prevents stats from being lowered by other Pokémon.",
+    "effect": "This Pokémon cannot have its stats lowered by other Pokémon.\n\nThis ability does not prevent any stat losses other than stat modifiers, such as the Speed cut from paralysis.  This Pokémon can still be passed negative stat modifiers through Guard Swap, Heart Swap, or Power Swap.\n\nThis ability functions identically to White Smoke in battle.",
+    "pokemonIds": [
+      72,
+      73
+    ]
+  },
+  {
+    "id": 30,
+    "name": "natural-cure",
+    "displayName": "Natural Cure",
+    "displayNameZh": "自然回復",
+    "displayNameJa": "しぜんかいふく",
+    "shortEffect": "Cures any major status ailment upon switching out.",
+    "effect": "This Pokémon is cured of any major status ailment when it is switched out for another Pokémon.\n\nIf this ability is acquired during battle, the Pokémon is cured upon leaving battle before losing the temporary ability.",
+    "pokemonIds": [
+      113,
+      120,
+      121
+    ]
+  },
+  {
+    "id": 31,
+    "name": "lightning-rod",
+    "displayName": "Lightning Rod",
+    "displayNameZh": "避雷針",
+    "displayNameJa": "ひらいしん",
+    "shortEffect": "Redirects single-target Electric moves to this Pokémon where possible.  Absorbs Electric moves, raising Special Attack one stage.",
+    "effect": "All other Pokémon's single-target Electric-type moves are redirected to this Pokémon if it is an eligible target.  Other Pokémon's Electric moves raise this Pokémon's Special Attack one stage, negating any other effect on it, and cannot miss it.\n\nIf the move's intended target also has this ability, the move is not redirected.  When multiple Pokémon with this ability are possible targets for redirection, the move is redirected to the one with the highest Speed stat, or, in the case of a tie, to a random tied Pokémon.  Follow Me takes precedence over this ability.\n\nIf the Pokémon is a Ground-type and thus immune to Electric moves, its immunity prevents the Special Attack boost.",
+    "pokemonIds": [
+      25,
+      26,
+      104,
+      105,
+      111,
+      112,
+      118,
+      119
+    ]
+  },
+  {
+    "id": 32,
+    "name": "serene-grace",
+    "displayName": "Serene Grace",
+    "displayNameZh": "天恩",
+    "displayNameJa": "てんのめぐみ",
+    "shortEffect": "Doubles the chance of moves' extra effects occurring.",
+    "effect": "This Pokémon's moves have twice their usual effect chance.\n\nAn effect chance is a move's chance to inflict a status ailment, cause a stat change, or make the target flinch in addition to the move's main effect.  For example, Flamethrower's chance of burning the target is doubled, but Protect's chance of success and Air Cutter's increased critical hit rate are unaffected.\n\nSecret Power is unaffected.",
+    "pokemonIds": [
+      113
+    ]
+  },
+  {
+    "id": 33,
+    "name": "swift-swim",
+    "displayName": "Swift Swim",
+    "displayNameZh": "悠游自如",
+    "displayNameJa": "すいすい",
+    "shortEffect": "Doubles Speed during rain.",
+    "effect": "This Pokémon's Speed is doubled during rain.\n\nThis bonus does not count as a stat modifier.",
+    "pokemonIds": [
+      54,
+      55,
+      60,
+      61,
+      62,
+      116,
+      118,
+      119,
+      129,
+      138,
+      139,
+      140,
+      141
+    ]
+  },
+  {
+    "id": 34,
+    "name": "chlorophyll",
+    "displayName": "Chlorophyll",
+    "displayNameZh": "葉綠素",
+    "displayNameJa": "ようりょくそ",
+    "shortEffect": "Doubles Speed during strong sunlight.",
+    "effect": "This Pokémon's Speed is doubled during strong sunlight.\n\nThis bonus does not count as a stat modifier.",
+    "pokemonIds": [
+      1,
+      2,
+      3,
+      43,
+      44,
+      45,
+      69,
+      70,
+      71,
+      102,
+      103,
+      114
+    ]
+  },
+  {
+    "id": 35,
+    "name": "illuminate",
+    "displayName": "Illuminate",
+    "displayNameZh": "發光",
+    "displayNameJa": "はっこう",
+    "shortEffect": "Doubles the wild encounter rate.",
+    "effect": "Overworld: If the lead Pokémon has this ability, the wild encounter rate is doubled.\n\nThis ability has no effect in battle.",
+    "pokemonIds": [
+      120,
+      121
+    ]
+  },
+  {
+    "id": 36,
+    "name": "trace",
+    "displayName": "Trace",
+    "displayNameZh": "複製",
+    "displayNameJa": "トレース",
+    "shortEffect": "Copies an opponent's ability upon entering battle.",
+    "effect": "When this Pokémon enters battle, it copies a random opponent's ability.\n\nThis ability cannot copy Flower Gift, Forecast, Illusion, Imposter, Multitype, Trace, Wonder Guard, or Zen Mode.",
+    "pokemonIds": [
+      137
+    ]
+  },
+  {
+    "id": 38,
+    "name": "poison-point",
+    "displayName": "Poison Point",
+    "displayNameZh": "毒刺",
+    "displayNameJa": "どくのトゲ",
+    "shortEffect": "Has a 30% chance of poisoning attacking Pokémon on contact.",
+    "effect": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being poisoned.",
+    "pokemonIds": [
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      117
+    ]
+  },
+  {
+    "id": 39,
+    "name": "inner-focus",
+    "displayName": "Inner Focus",
+    "displayNameZh": "精神力",
+    "displayNameJa": "せいしんりょく",
+    "shortEffect": "Prevents flinching.",
+    "effect": "This Pokémon cannot flinch.",
+    "pokemonIds": [
+      41,
+      42,
+      63,
+      64,
+      65,
+      83,
+      96,
+      97,
+      107,
+      115,
+      149
+    ]
+  },
+  {
+    "id": 41,
+    "name": "water-veil",
+    "displayName": "Water Veil",
+    "displayNameZh": "水幕",
+    "displayNameJa": "みずのベール",
+    "shortEffect": "Prevents burns.",
+    "effect": "This Pokémon cannot be burned.\n\nIf a Pokémon is burned and acquires this ability, its burn is healed; this includes when regaining a lost ability upon leaving battle.",
+    "pokemonIds": [
+      118,
+      119
+    ]
+  },
+  {
+    "id": 42,
+    "name": "magnet-pull",
+    "displayName": "Magnet Pull",
+    "displayNameZh": "磁力",
+    "displayNameJa": "じりょく",
+    "shortEffect": "Prevents Steel opponents from fleeing or switching out.",
+    "effect": "While this Pokémon is in battle, opposing Steel-type Pokémon cannot flee or switch out.\n\nPokémon with Run Away can still flee.  Pokémon can still switch out with the use of a move or item.\n\nOverworld: If the lead Pokémon has this ability, Steel-type Pokémon have a higher encounter rate.",
+    "pokemonIds": [
+      81,
+      82
+    ]
+  },
+  {
+    "id": 43,
+    "name": "soundproof",
+    "displayName": "Soundproof",
+    "displayNameZh": "隔音",
+    "displayNameJa": "ぼうおん",
+    "shortEffect": "Protects against sound-based moves.",
+    "effect": "This Pokémon is immune to moves flagged as being sound-based.\n\nHeal Bell is unaffected.  Uproar still prevents this Pokémon from sleeping.  This Pokémon can still receive a Perish Song counter through Baton Pass, and will retain a Perish Song counter if it acquires this ability after Perish Song is used.\n\nHowl, Roar of Time, Sonic Boom, and Yawn are not flagged as sound-based.",
+    "pokemonIds": [
+      100,
+      101,
+      122
+    ]
+  },
+  {
+    "id": 44,
+    "name": "rain-dish",
+    "displayName": "Rain Dish",
+    "displayNameZh": "雨盤",
+    "displayNameJa": "あめうけざら",
+    "shortEffect": "Heals for 1/16 max HP after each turn during rain.",
+    "effect": "This Pokémon heals for 1/16 of its maximum HP after each turn during rain.",
+    "pokemonIds": [
+      7,
+      8,
+      9,
+      72,
+      73
+    ]
+  },
+  {
+    "id": 46,
+    "name": "pressure",
+    "displayName": "Pressure",
+    "displayNameZh": "壓迫感",
+    "displayNameJa": "プレッシャー",
+    "shortEffect": "Increases the PP cost of moves targetting the Pokémon by one.",
+    "effect": "Moves targetting this Pokémon use one extra PP.\n\nThis ability stacks if multiple targets have it.  This ability still affects moves that fail or miss.  This ability does not affect ally moves that target either the entire field or just its side, nor this Pokémon's self-targetted moves; it does, however, affect single-targetted ally moves aimed at this Pokémon, ally moves that target all other Pokémon, and opponents' moves that target the entire field.  If this ability raises a move's PP cost above its remaining PP, it will use all remaining PP.\n\nWhen this Pokémon enters battle, all participating trainers are notified that it has this ability.\n\nOverworld: If the lead Pokémon has this ability, higher-levelled Pokémon have their encounter rate increased.",
+    "pokemonIds": [
+      142,
+      144,
+      145,
+      146,
+      150
+    ]
+  },
+  {
+    "id": 47,
+    "name": "thick-fat",
+    "displayName": "Thick Fat",
+    "displayNameZh": "厚脂肪",
+    "displayNameJa": "あついしぼう",
+    "shortEffect": "Halves damage from Fire and Ice moves.",
+    "effect": "This Pokémon takes half as much damage from Fire- and Ice-type moves.",
+    "pokemonIds": [
+      86,
+      87,
+      143
+    ]
+  },
+  {
+    "id": 48,
+    "name": "early-bird",
+    "displayName": "Early Bird",
+    "displayNameZh": "早起",
+    "displayNameJa": "はやおき",
+    "shortEffect": "Makes sleep pass twice as quickly.",
+    "effect": "This Pokémon's remaining sleep turn count falls by 2 rather than 1.\n\nIf this Pokémon's sleep counter is at 1, it will fall to 0 and then the Pokémon will wake up.",
+    "pokemonIds": [
+      84,
+      85,
+      115
+    ]
+  },
+  {
+    "id": 49,
+    "name": "flame-body",
+    "displayName": "Flame Body",
+    "displayNameZh": "火焰之軀",
+    "displayNameJa": "ほのおのからだ",
+    "shortEffect": "Has a 30% chance of burning attacking Pokémon on contact.",
+    "effect": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being burned.\n\nOverworld: If any Pokémon in the party has this ability, each egg in the party has its hatch counter decreased by 2 (rather than 1) each step cycle, making eggs hatch roughly twice as quickly.  This effect does not stack if multiple Pokémon have this ability or Magma Armor.",
+    "pokemonIds": [
+      77,
+      78,
+      126,
+      146
+    ]
+  },
+  {
+    "id": 50,
+    "name": "run-away",
+    "displayName": "Run Away",
+    "displayNameZh": "逃跑",
+    "displayNameJa": "にげあし",
+    "shortEffect": "Ensures success fleeing from wild battles.",
+    "effect": "This Pokémon is always successful fleeing from wild battles, even if trapped by a move or ability.",
+    "pokemonIds": [
+      10,
+      13,
+      19,
+      20,
+      43,
+      48,
+      77,
+      78,
+      84,
+      85,
+      133
+    ]
+  },
+  {
+    "id": 51,
+    "name": "keen-eye",
+    "displayName": "Keen Eye",
+    "displayNameZh": "銳利目光",
+    "displayNameJa": "するどいめ",
+    "shortEffect": "Prevents accuracy from being lowered.",
+    "effect": "This Pokémon cannot have its accuracy lowered.\n\nThis ability does not prevent any accuracy losses other than stat modifiers, such as the accuracy cut from fog; nor does it prevent other Pokémon's evasion from making this Pokémon's moves less accurate.  This Pokémon can still be passed negative accuracy modifiers through Heart Swap.\n\nOverworld: If the first Pokémon in the party has this ability, any random encounter with a Pokémon five or more levels lower than it has a 50% chance of being skipped.",
+    "pokemonIds": [
+      16,
+      17,
+      18,
+      21,
+      22,
+      83,
+      107
+    ]
+  },
+  {
+    "id": 52,
+    "name": "hyper-cutter",
+    "displayName": "Hyper Cutter",
+    "displayNameZh": "怪力鉗",
+    "displayNameJa": "かいりきバサミ",
+    "shortEffect": "Prevents Attack from being lowered by other Pokémon.",
+    "effect": "This Pokémon's Attack cannot be lowered by other Pokémon.\n\nThis ability does not prevent any Attack losses other than stat modifiers, such as the Attack cut from a burn.  This Pokémon can still be passed negative Attack modifiers through Heart Swap or Power Swap.",
+    "pokemonIds": [
+      98,
+      99,
+      127
+    ]
+  },
+  {
+    "id": 53,
+    "name": "pickup",
+    "displayName": "Pickup",
+    "displayNameZh": "撿拾",
+    "displayNameJa": "ものひろい",
+    "shortEffect": "Picks up other Pokémon's used and Flung held items.  May also pick up an item after battle.",
+    "effect": "At the end of each turn, if another Pokémon consumed or Flung a held item that turn, this Pokémon picks up the item if it is not already holding one.  After each battle, this Pokémon has a 10% chance of picking up an item if it is not already holding one.\n\nThe Air Balloon and Eject Button cannot be picked up.\n\nThe items that may be found vary by game, and, since Pokémon Emerald, by the Pokémon's level.  This ability is checked after the battle ends, at which point any temporary ability changes have worn off.",
+    "pokemonIds": [
+      52
+    ]
+  },
+  {
+    "id": 55,
+    "name": "hustle",
+    "displayName": "Hustle",
+    "displayNameZh": "活力",
+    "displayNameJa": "はりきり",
+    "shortEffect": "Strengthens physical moves to inflict 1.5× damage, but decreases their accuracy to 0.8×.",
+    "effect": "This Pokémon's physical moves do 1.5× as much regular damage, but have 0.8× their usual accuracy.\n\nSpecial moves are unaffected.  Moves that do set damage, such as Seismic Toss, have their accuracy affected, but not their damage.\n\nOverworld: If the lead Pokémon has this ability, higher-levelled Pokémon have their encounter rate increased.",
+    "pokemonIds": [
+      19,
+      20,
+      29,
+      30,
+      32,
+      33
+    ]
+  },
+  {
+    "id": 56,
+    "name": "cute-charm",
+    "displayName": "Cute Charm",
+    "displayNameZh": "迷人之軀",
+    "displayNameJa": "メロメロボディ",
+    "shortEffect": "Has a 30% chance of infatuating attacking Pokémon on contact.",
+    "effect": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being infatuated.\n\nOverworld: If the first Pokémon in the party has this ability, any wild Pokémon whose species can be either gender has a 2/3 chance of being set to the opposite gender, and a 1/3 chance of having a random gender as usual.",
+    "pokemonIds": [
+      35,
+      36,
+      39,
+      40
+    ]
+  },
+  {
+    "id": 60,
+    "name": "sticky-hold",
+    "displayName": "Sticky Hold",
+    "displayNameZh": "黏著",
+    "displayNameJa": "ねんちゃく",
+    "shortEffect": "Prevents a held item from being removed by other Pokémon.",
+    "effect": "This Pokémon's hold item cannot be removed by other Pokémon.\n\nDamaging moves that would remove this Pokémon's item can still inflict damage against this Pokémon, e.g. Knock Off or Pluck.  This Pokémon can still use moves that involve the loss of its own item, e.g. Fling or Trick.\n\nOverworld: If the lead Pokémon has this ability, the encounter rate while fishing is increased.",
+    "pokemonIds": [
+      88,
+      89
+    ]
+  },
+  {
+    "id": 61,
+    "name": "shed-skin",
+    "displayName": "Shed Skin",
+    "displayNameZh": "蛻皮",
+    "displayNameJa": "だっぴ",
+    "shortEffect": "Has a 33% chance of curing any major status ailment after each turn.",
+    "effect": "After each turn, this Pokémon has a 33% of being cured of any major status ailment.",
+    "pokemonIds": [
+      11,
+      14,
+      23,
+      24,
+      147,
+      148
+    ]
+  },
+  {
+    "id": 62,
+    "name": "guts",
+    "displayName": "Guts",
+    "displayNameZh": "毅力",
+    "displayNameJa": "こんじょう",
+    "shortEffect": "Increases Attack to 1.5× with a major status ailment.",
+    "effect": "Whenever this Pokémon is asleep, burned, paralyzed, or poisoned, it has 1.5× its Attack.  This Pokémon is not affected by the usual Attack cut from a burn.\n\nThis bonus does not count as a stat modifier.",
+    "pokemonIds": [
+      19,
+      20,
+      66,
+      67,
+      68,
+      136
+    ]
+  },
+  {
+    "id": 63,
+    "name": "marvel-scale",
+    "displayName": "Marvel Scale",
+    "displayNameZh": "神奇鱗片",
+    "displayNameJa": "ふしぎなうろこ",
+    "shortEffect": "Increases Defense to 1.5× with a major status ailment.",
+    "effect": "Whenever this Pokémon has a major status ailment, it has 1.5× its Defense.\n\nThis bonus does not count as a stat modifier.",
+    "pokemonIds": [
+      147,
+      148
+    ]
+  },
+  {
+    "id": 64,
+    "name": "liquid-ooze",
+    "displayName": "Liquid Ooze",
+    "displayNameZh": "污泥漿",
+    "displayNameJa": "ヘドロえき",
+    "shortEffect": "Damages opponents using leeching moves for as much as they would heal.",
+    "effect": "Whenever a Pokémon would heal after hitting this Pokémon with a leeching move like Absorb, it instead loses as many HP as it would usually gain.\n\nDream Eater is unaffected.",
+    "pokemonIds": [
+      72,
+      73
+    ]
+  },
+  {
+    "id": 65,
+    "name": "overgrow",
+    "displayName": "Overgrow",
+    "displayNameZh": "茂盛",
+    "displayNameJa": "しんりょく",
+    "shortEffect": "Strengthens Grass moves to inflict 1.5× damage at 1/3 max HP or less.",
+    "effect": "When this Pokémon has 1/3 or less of its HP remaining, its Grass-type moves inflict 1.5× as much regular damage.",
+    "pokemonIds": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": 66,
+    "name": "blaze",
+    "displayName": "Blaze",
+    "displayNameZh": "猛火",
+    "displayNameJa": "もうか",
+    "shortEffect": "Strengthens Fire moves to inflict 1.5× damage at 1/3 max HP or less.",
+    "effect": "When this Pokémon has 1/3 or less of its HP remaining, its Fire-type moves inflict 1.5× as much regular damage.",
+    "pokemonIds": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "id": 67,
+    "name": "torrent",
+    "displayName": "Torrent",
+    "displayNameZh": "激流",
+    "displayNameJa": "げきりゅう",
+    "shortEffect": "Strengthens Water moves to inflict 1.5× damage at 1/3 max HP or less.",
+    "effect": "When this Pokémon has 1/3 or less of its HP remaining, its Water-type moves inflict 1.5× as much regular damage.",
+    "pokemonIds": [
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "id": 68,
+    "name": "swarm",
+    "displayName": "Swarm",
+    "displayNameZh": "蟲之預感",
+    "displayNameJa": "むしのしらせ",
+    "shortEffect": "Strengthens Bug moves to inflict 1.5× damage at 1/3 max HP or less.",
+    "effect": "When this Pokémon has 1/3 or less of its HP remaining, its Bug-type moves inflict 1.5× as much regular damage.\n\nOverworld: If the lead Pokémon has this ability, the wild encounter rate is increased.",
+    "pokemonIds": [
+      15,
+      123
+    ]
+  },
+  {
+    "id": 69,
+    "name": "rock-head",
+    "displayName": "Rock Head",
+    "displayNameZh": "堅硬腦袋",
+    "displayNameJa": "いしあたま",
+    "shortEffect": "Protects against recoil damage.",
+    "effect": "This Pokémon does not receive recoil damage from its recoil moves.\n\nStruggle's recoil is unaffected.  This ability does not prevent crash damage from missing with Jump Kick or High Jump Kick.",
+    "pokemonIds": [
+      74,
+      75,
+      76,
+      95,
+      104,
+      105,
+      111,
+      112,
+      142
+    ]
+  },
+  {
+    "id": 70,
+    "name": "drought",
+    "displayName": "Drought",
+    "displayNameZh": "日照",
+    "displayNameJa": "ひでり",
+    "shortEffect": "Summons strong sunlight that lasts indefinitely upon entering battle.",
+    "effect": "The weather changes to strong sunlight when this Pokémon enters battle and does not end unless cancelled by another weather condition.\n\nIf multiple Pokémon with this ability, Drizzle, Sand Stream, or Snow Warning are sent out at the same time, the abilities will activate in order of Speed, respecting Trick Room.  Each ability's weather will cancel the previous weather, and only the weather summoned by the slowest of the Pokémon will stay.",
+    "pokemonIds": [
+      37,
+      38
+    ]
+  },
+  {
+    "id": 71,
+    "name": "arena-trap",
+    "displayName": "Arena Trap",
+    "displayNameZh": "沙穴",
+    "displayNameJa": "ありじごく",
+    "shortEffect": "Prevents opponents from fleeing or switching out.  Eluded by Flying-types and Pokémon in the air.",
+    "effect": "While this Pokémon is in battle, opposing Pokémon cannot flee or switch out.  Flying-type Pokémon and Pokémon in the air, e.g. due to Levitate or Magnet Rise, are unaffected.\n\nPokémon with Run Away can still flee.  Pokémon can still switch out with the use of a move or item.\n\nOverworld: If the lead Pokémon has this ability, the wild encounter rate is doubled.",
+    "pokemonIds": [
+      50,
+      51
+    ]
+  },
+  {
+    "id": 72,
+    "name": "vital-spirit",
+    "displayName": "Vital Spirit",
+    "displayNameZh": "幹勁",
+    "displayNameJa": "やるき",
+    "shortEffect": "Prevents sleep.",
+    "effect": "This Pokémon cannot be asleep.\n\nThis causes Rest to fail altogether.  If a Pokémon is asleep and acquires this ability, it will immediately wake up; this includes when regaining a lost ability upon leaving battle.\n\nThis ability functions identically to Insomnia in battle.\n\nOverworld: If the lead Pokémon has this ability, higher-levelled Pokémon have their encounter rate increased.",
+    "pokemonIds": [
+      56,
+      57,
+      125,
+      126
+    ]
+  },
+  {
+    "id": 75,
+    "name": "shell-armor",
+    "displayName": "Shell Armor",
+    "displayNameZh": "硬殼盔甲",
+    "displayNameJa": "シェルアーマー",
+    "shortEffect": "Protects against critical hits.",
+    "effect": "Moves cannot score critical hits against this Pokémon.\n\nThis ability functions identically to Battle Armor.",
+    "pokemonIds": [
+      90,
+      91,
+      98,
+      99,
+      131,
+      138,
+      139
+    ]
+  },
+  {
+    "id": 77,
+    "name": "tangled-feet",
+    "displayName": "Tangled Feet",
+    "displayNameZh": "蹣跚",
+    "displayNameJa": "ちどりあし",
+    "shortEffect": "Doubles evasion when confused.",
+    "effect": "When this Pokémon is confused, it has twice its evasion.",
+    "pokemonIds": [
+      16,
+      17,
+      18,
+      84,
+      85
+    ]
+  },
+  {
+    "id": 79,
+    "name": "rivalry",
+    "displayName": "Rivalry",
+    "displayNameZh": "鬥爭心",
+    "displayNameJa": "とうそうしん",
+    "shortEffect": "Increases damage inflicted to 1.25× against Pokémon of the same gender, but decreases damage to 0.75× against the opposite gender.",
+    "effect": "This Pokémon inflicts 1.25× as much regular damage against Pokémon of the same gender and 0.75× as much regular damage against Pokémon of the opposite gender.\n\nIf either Pokémon is genderless, damage is unaffected.",
+    "pokemonIds": [
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "id": 80,
+    "name": "steadfast",
+    "displayName": "Steadfast",
+    "displayNameZh": "不屈之心",
+    "displayNameJa": "ふくつのこころ",
+    "shortEffect": "Raises Speed one stage upon flinching.",
+    "effect": "Whenever this Pokémon flinches, its Speed rises one stage.",
+    "pokemonIds": [
+      66,
+      67,
+      68,
+      123
+    ]
+  },
+  {
+    "id": 81,
+    "name": "snow-cloak",
+    "displayName": "Snow Cloak",
+    "displayNameZh": "雪隱",
+    "displayNameJa": "ゆきがくれ",
+    "shortEffect": "Increases evasion to 1.25× during hail.  Protects against hail damage.",
+    "effect": "During hail, this Pokémon has 1.25× its evasion, and it does not take hail damage regardless of type.\n\nThe evasion bonus does not count as a stat modifier.\n\nOverworld: If the lead Pokémon has this ability, the wild encounter rate is halved in snow.",
+    "pokemonIds": [
+      144
+    ]
+  },
+  {
+    "id": 82,
+    "name": "gluttony",
+    "displayName": "Gluttony",
+    "displayNameZh": "貪吃鬼",
+    "displayNameJa": "くいしんぼう",
+    "shortEffect": "Makes the Pokémon eat any held Berry triggered by low HP below 1/2 its max HP.",
+    "effect": "This Pokémon eats any held Berry triggered by low HP when it falls below 50% of its HP, regardless of the Berry's usual threshold.",
+    "pokemonIds": [
+      69,
+      70,
+      71,
+      143
+    ]
+  },
+  {
+    "id": 83,
+    "name": "anger-point",
+    "displayName": "Anger Point",
+    "displayNameZh": "憤怒穴位",
+    "displayNameJa": "いかりのつぼ",
+    "shortEffect": "Raises Attack to the maximum of six stages upon receiving a critical hit.",
+    "effect": "Whenever this Pokémon receives a critical hit, its Attack rises to the maximum of 6 stages.\n\nThis ability will still take effect if the critical hit is received by a Substitute.",
+    "pokemonIds": [
+      56,
+      57,
+      128
+    ]
+  },
+  {
+    "id": 84,
+    "name": "unburden",
+    "displayName": "Unburden",
+    "displayNameZh": "輕裝",
+    "displayNameJa": "かるわざ",
+    "shortEffect": "Doubles Speed upon using or losing a held item.",
+    "effect": "When this Pokémon uses or loses its held item, its Speed is doubled.  If it gains another item or leaves battle, this bonus is lost.\n\nThis includes when the Pokémon drops its item because of Knock Off.  This bonus does not count as a stat modifier.  There is no notification when this ability takes effect.",
+    "pokemonIds": [
+      106
+    ]
+  },
+  {
+    "id": 87,
+    "name": "dry-skin",
+    "displayName": "Dry Skin",
+    "displayNameZh": "乾燥皮膚",
+    "displayNameJa": "かんそうはだ",
+    "shortEffect": "Causes 1/8 max HP in damage each turn during strong sunlight, but heals for 1/8 max HP during rain.  Increases damage from Fire moves to 1.25×, but absorbs Water moves, healing for 1/4 max HP.",
+    "effect": "This Pokémon takes 1/8 of its maximum HP in damage after each turn during strong sunlight, but it heals for 1/8 of its HP each turn during rain.  This Pokémon takes 1.25× as much damage from Fire-type moves, but whenever a Water move hits it, it heals for 1/4 its maximum HP instead.",
+    "pokemonIds": [
+      46,
+      47,
+      124
+    ]
+  },
+  {
+    "id": 88,
+    "name": "download",
+    "displayName": "Download",
+    "displayNameZh": "下載",
+    "displayNameJa": "ダウンロード",
+    "shortEffect": "Raises the attack stat corresponding to the opponents' weaker defense one stage upon entering battle.",
+    "effect": "When this Pokémon enters battle, its Attack or Special Attack, whichever corresponds to its opponents' weaker total defensive stat, rises one stage.  In the event of a tie, Special Attack is raised.\n\nThis ability also takes effect when acquired during a battle.",
+    "pokemonIds": [
+      137
+    ]
+  },
+  {
+    "id": 89,
+    "name": "iron-fist",
+    "displayName": "Iron Fist",
+    "displayNameZh": "鐵拳",
+    "displayNameJa": "てつのこぶし",
+    "shortEffect": "Strengthens punch-based moves to 1.2× their power.",
+    "effect": "Moves flagged as being punch-based have 1.2× their base power for this Pokémon.\n\nSucker Punch is not flagged as punch-based; its original, Japanese name only means \"surprise attack\".",
+    "pokemonIds": [
+      107
+    ]
+  },
+  {
+    "id": 91,
+    "name": "adaptability",
+    "displayName": "Adaptability",
+    "displayNameZh": "適應力",
+    "displayNameJa": "てきおうりょく",
+    "shortEffect": "Increases the same-type attack bonus from 1.5× to 2×.",
+    "effect": "This Pokémon inflicts twice as much damage with moves whose types match its own, rather than the usual same-type attack bonus of 1.5×.",
+    "pokemonIds": [
+      133
+    ]
+  },
+  {
+    "id": 92,
+    "name": "skill-link",
+    "displayName": "Skill Link",
+    "displayNameZh": "連續攻擊",
+    "displayNameJa": "スキルリンク",
+    "shortEffect": "Extends two-to-five-hit moves and Triple Kick to their full length every time.",
+    "effect": "This Pokémon always hits five times with two-to-five-hit moves, such as Icicle Spear.  It also bypasses the accuracy checks on Triple Kick's second and third hits.",
+    "pokemonIds": [
+      90,
+      91
+    ]
+  },
+  {
+    "id": 93,
+    "name": "hydration",
+    "displayName": "Hydration",
+    "displayNameZh": "濕潤之軀",
+    "displayNameJa": "うるおいボディ",
+    "shortEffect": "Cures any major status ailment after each turn during rain.",
+    "effect": "This Pokémon is cured of any major status ailment after each turn during rain.",
+    "pokemonIds": [
+      86,
+      87,
+      131,
+      134
+    ]
+  },
+  {
+    "id": 94,
+    "name": "solar-power",
+    "displayName": "Solar Power",
+    "displayNameZh": "太陽之力",
+    "displayNameJa": "サンパワー",
+    "shortEffect": "Increases Special Attack to 1.5× but costs 1/8 max HP after each turn during strong sunlight.",
+    "effect": "During strong sunlight, this Pokémon has 1.5× its Special Attack but takes 1/8 of its maximum HP in damage after each turn.",
+    "pokemonIds": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "id": 95,
+    "name": "quick-feet",
+    "displayName": "Quick Feet",
+    "displayNameZh": "飛毛腿",
+    "displayNameJa": "はやあし",
+    "shortEffect": "Increases Speed to 1.5× with a major status ailment.",
+    "effect": "Whenever this Pokémon has a major status ailment, it has 1.5× its Speed.  This Pokémon is not affected by the usual Speed cut from paralysis.\n\nOverworld: If the lead Pokémon has this ability, the wild encounter rate is halved.",
+    "pokemonIds": [
+      135
+    ]
+  },
+  {
+    "id": 97,
+    "name": "sniper",
+    "displayName": "Sniper",
+    "displayNameZh": "狙擊手",
+    "displayNameJa": "スナイパー",
+    "shortEffect": "Strengthens critical hits to inflict 3× damage rather than 2×.",
+    "effect": "This Pokémon inflicts triple damage with critical hits, rather than the usual double damage.",
+    "pokemonIds": [
+      15,
+      21,
+      22,
+      116,
+      117
+    ]
+  },
+  {
+    "id": 98,
+    "name": "magic-guard",
+    "displayName": "Magic Guard",
+    "displayNameZh": "魔法防守",
+    "displayNameJa": "マジックガード",
+    "shortEffect": "Protects against damage not directly caused by a move.",
+    "effect": "This Pokémon is immune to damage not directly caused by a move.\n\nFor example, this Pokémon takes no damage from from weather, recoil, status ailments, or Spikes, but it still suffers from the Attack cut when burned, and a Life Orb will still power up this Pokémon's moves without damaging it.  Anything that directly depends on such damage will also not happen; for example, Leech Seed will neither hurt this Pokémon nor heal the opponent, and Pokémon with a Jaboca Berry or Rowap Berry will not consume the berry when hit by this Pokémon.\n\nThe following are unaffected: Struggle, Pain Split (whether used by or against this Pokémon), Belly Drum, Substitute, Curse, moves that knock the user out, and damage from confusion.\n\nThis Pokémon will neither lose nor regain HP if it drains HP from a Pokémon with Liquid Ooze.\n\nIf this Pokémon is badly poisoned, the poison counter is still increased each turn; if the Pokémon loses this ability, it will begin taking as much damage as it would be if it had been taking increasing damage each turn.",
+    "pokemonIds": [
+      35,
+      36,
+      63,
+      64,
+      65
+    ]
+  },
+  {
+    "id": 99,
+    "name": "no-guard",
+    "displayName": "No Guard",
+    "displayNameZh": "無防守",
+    "displayNameJa": "ノーガード",
+    "shortEffect": "Ensures all moves used by and against the Pokémon hit.",
+    "effect": "Moves used by or against this Pokémon never miss.\n\nOne-hit KO moves are unaffected.  Moves affected by this ability can hit Pokémon during the preparation turn of moves like Dig or Fly.\n\nOverworld: If the lead Pokémon has this ability, the wild encounter rate is doubled.",
+    "pokemonIds": [
+      66,
+      67,
+      68
+    ]
+  },
+  {
+    "id": 101,
+    "name": "technician",
+    "displayName": "Technician",
+    "displayNameZh": "技術高手",
+    "displayNameJa": "テクニシャン",
+    "shortEffect": "Strengthens moves of 60 base power or less to 1.5× their power.",
+    "effect": "This Pokémon's moves have 1.5× their power if their base power is 60 or less.\n\nThis includes moves of variable power, such as Hidden Power and Magnitude, when their power is 60 or less.  Helping Hand's power boost is taken into account for any move, as is Defense Curl's power boost for Rollout.",
+    "pokemonIds": [
+      52,
+      53,
+      122,
+      123
+    ]
+  },
+  {
+    "id": 102,
+    "name": "leaf-guard",
+    "displayName": "Leaf Guard",
+    "displayNameZh": "葉子防守",
+    "displayNameJa": "リーフガード",
+    "shortEffect": "Protects against major status ailments during strong sunlight.",
+    "effect": "This Pokémon cannot be given a major status ailment during strong sunlight.\n\nThis ability does not heal prior status ailments.  Rest will fail altogether with this ability in effect.  Yawn will immediately fail if used on this Pokémon during strong sunlight, and an already-used Yawn will fail if the weather turns to strong sunlight in the meantime.",
+    "pokemonIds": [
+      114
+    ]
+  },
+  {
+    "id": 104,
+    "name": "mold-breaker",
+    "displayName": "Mold Breaker",
+    "displayNameZh": "破格",
+    "displayNameJa": "かたやぶり",
+    "shortEffect": "Bypasses targets' abilities if they could hinder or prevent a move.",
+    "effect": "This Pokémon's moves completely ignore abilities that could hinder or prevent their effect on the target.\n\nFor example, this Pokémon's moves ignore abilities that would fully negate them, such as Water Absorb; abilities that would prevent any of their effects, such as Clear Body, Shell Armor, or Sticky Hold; and abilities that grant any general protective benefit, such as Simple, Snow Cloak, or Thick Fat.  If an ability could either hinder or help this Pokémon's moves, e.g. Dry Skin or Unaware, the ability is ignored either way.\n\nAbilities that do not fit this description, even if they could hinder moves in some other way, are not affected.  For example, Cursed Body only affects potential future uses of the move, while Liquid Ooze and Shadow Tag can only hinder a move's effect on the user.  This ablity cannot ignore type or form changes granted by abilities, for example Color Change or Forecast; nor effects that were caused by abilities but are no longer tied to an ability, such as the rain from Drizzle.  This ability cannot ignore Multitype at all.\n\nAn ability ignored by this ability is only nullified while the move is being used.  For example, this Pokémon's moves can paralyze a Pokémon with Limber, but Limber will activate and heal the paralysis immediately thereafter, and this Pokémon's Spikes are not affected by this ability after they have been placed.\n\nWhen this Pokémon enters battle, all participating trainers are notified that it has this ability.\n\nThis ability functions identically to Teravolt and Turboblaze.",
+    "pokemonIds": [
+      127
+    ]
+  },
+  {
+    "id": 106,
+    "name": "aftermath",
+    "displayName": "Aftermath",
+    "displayNameZh": "引爆",
+    "displayNameJa": "ゆうばく",
+    "shortEffect": "Damages the attacker for 1/4 its max HP when knocked out by a contact move.",
+    "effect": "When this Pokémon is knocked out by a move that makes contact, the move's user takes 1/4 its maximum HP in damage.",
+    "pokemonIds": [
+      100,
+      101
+    ]
+  },
+  {
+    "id": 107,
+    "name": "anticipation",
+    "displayName": "Anticipation",
+    "displayNameZh": "危險預知",
+    "displayNameJa": "きけんよち",
+    "shortEffect": "Notifies all trainers upon entering battle if an opponent has a super-effective move, Self-Destruct, Explosion, or a one-hit KO move.",
+    "effect": "When this Pokémon enters battle, if one of its opponents has a move that is super effective against it, Self-Destruct, Explosion, or a one-hit knockout move, all participating trainers are notified.\n\nThe move itself is not revealed; only that there is such a move.  Moves that inflict typeless damage, such as Future Sight, and moves of variable type, such as Hidden Power, count as their listed types.  Counter, Metal Burst, Mirror Coat, and one-hit KO moves to which this Pokémon is immune do not trigger this ability.",
+    "pokemonIds": [
+      133
+    ]
+  },
+  {
+    "id": 108,
+    "name": "forewarn",
+    "displayName": "Forewarn",
+    "displayNameZh": "預知夢",
+    "displayNameJa": "よちむ",
+    "shortEffect": "Reveals the opponents' strongest move upon entering battle.",
+    "effect": "When this Pokémon enters battle, it reveals the move with the highest base power known by any opposing Pokémon to all participating trainers.\n\nIn the event of a tie, one is chosen at random.\n\nMoves without a listed base power are assigned one as follows:\n\nPower | Moves\n----: | -----\n  160 | One-hit KO moves: Fissure, Guillotine, Horn Drill, and Sheer Cold\n  120 | Counter moves: Counter, Metal Burst, and Mirror Coat\n   80 | Variable power or set damage: Crush Grip, Dragon Rage, Electro Ball, Endeavor, Final Gambit, Flail, Frustration, Grass Knot, Gyro Ball, Heat Crash, Heavy Slam, Hidden Power, Low Kick, Natural Gift, Night Shade, Psywave, Return, Reversal, Seismic Toss, Sonic Boom, Trump Card, and Wring Out\n    0 | Any such move not listed\n",
+    "pokemonIds": [
+      96,
+      97,
+      124
+    ]
+  },
+  {
+    "id": 109,
+    "name": "unaware",
+    "displayName": "Unaware",
+    "displayNameZh": "純樸",
+    "displayNameJa": "てんねん",
+    "shortEffect": "Ignores other Pokémon's stat modifiers for damage and accuracy calculation.",
+    "effect": "This Pokémon ignores other Pokémon's stat modifiers for the purposes of damage and accuracy calculation.\n\nEffectively, this affects modifiers of every stat except Speed.\n\nThe power of Punishment and Stored Power is calculated as usual.  When this Pokémon hurts itself in confusion, its stat modifiers affect damage as usual.",
+    "pokemonIds": [
+      36
+    ]
+  },
+  {
+    "id": 110,
+    "name": "tinted-lens",
+    "displayName": "Tinted Lens",
+    "displayNameZh": "有色眼鏡",
+    "displayNameJa": "いろめがね",
+    "shortEffect": "Doubles damage inflicted with not-very-effective moves.",
+    "effect": "This Pokémon deals twice as much damage with moves that are not very effective against the target.",
+    "pokemonIds": [
+      12,
+      48,
+      49
+    ]
+  },
+  {
+    "id": 111,
+    "name": "filter",
+    "displayName": "Filter",
+    "displayNameZh": "過濾",
+    "displayNameJa": "フィルター",
+    "shortEffect": "Decreases damage taken from super-effective moves by 1/4.",
+    "effect": "This Pokémon takes 0.75× as much damage from moves that are super effective against it.\n\nThis ability functions identically to Solid Rock.",
+    "pokemonIds": [
+      122
+    ]
+  },
+  {
+    "id": 113,
+    "name": "scrappy",
+    "displayName": "Scrappy",
+    "displayNameZh": "膽量",
+    "displayNameJa": "きもったま",
+    "shortEffect": "Lets the Pokémon's Normal and Fighting moves hit Ghost Pokémon.",
+    "effect": "This Pokémon ignores Ghost-type Pokémon's immunity to Normal- and Fighting-type moves.\n\nGhost Pokémon's other types affect damage as usual.",
+    "pokemonIds": [
+      115
+    ]
+  },
+  {
+    "id": 115,
+    "name": "ice-body",
+    "displayName": "Ice Body",
+    "displayNameZh": "冰凍之軀",
+    "displayNameJa": "アイスボディ",
+    "shortEffect": "Heals for 1/16 max HP after each turn during hail.  Protects against hail damage.",
+    "effect": "This Pokémon heals for 1/16 of its maximum HP after each turn during hail, and it does not take hail damage regardless of type.",
+    "pokemonIds": [
+      86,
+      87
+    ]
+  },
+  {
+    "id": 119,
+    "name": "frisk",
+    "displayName": "Frisk",
+    "displayNameZh": "察覺",
+    "displayNameJa": "おみとおし",
+    "shortEffect": "Reveals an opponent's held item upon entering battle.",
+    "effect": "When this Pokémon enters battle, it reveals an opposing Pokémon's held item to all participating trainers.\n\nIn a double battle, if one opponent has an item, this Pokémon will Frisk that Pokémon; if both have an item, it will Frisk one at random.",
+    "pokemonIds": [
+      40
+    ]
+  },
+  {
+    "id": 120,
+    "name": "reckless",
+    "displayName": "Reckless",
+    "displayNameZh": "捨身",
+    "displayNameJa": "すてみ",
+    "shortEffect": "Strengthens recoil moves to 1.2× their power.",
+    "effect": "This Pokémon's recoil moves and crash moves have 1.2× their base power.\n\nStruggle is unaffected.\n\nThe \"crash moves\" are the moves that damage the user upon missing: Jump Kick and High Jump Kick.",
+    "pokemonIds": [
+      106,
+      111,
+      112
+    ]
+  },
+  {
+    "id": 125,
+    "name": "sheer-force",
+    "displayName": "Sheer Force",
+    "displayNameZh": "強行",
+    "displayNameJa": "ちからずく",
+    "shortEffect": "Strengthens moves with extra effects to 1.3× their power, but prevents their extra effects.",
+    "effect": "This Pokémon's moves with extra effects have 1.3× their power, but lose their extra effects.\n\nAn effect chance is a move's chance to inflict a status ailment, cause a stat change, or make the target flinch in addition to the move's main effect. For example, Thunder Shock's paralysis is an extra effect, but Thunder Wave's is not, nor are Knock Off's item removal and Air Cutter's increased critical hit rate.\n\nMoves that lower the user's stats are unaffected.",
+    "pokemonIds": [
+      31,
+      34,
+      98,
+      99,
+      128
+    ]
+  },
+  {
+    "id": 127,
+    "name": "unnerve",
+    "displayName": "Unnerve",
+    "displayNameZh": "緊張感",
+    "displayNameJa": "きんちょうかん",
+    "shortEffect": "Prevents opposing Pokémon from eating held Berries.",
+    "effect": "Opposing Pokémon cannot eat held Berries while this Pokémon is in battle.\n\nAffected Pokémon can still use Bug Bite or Pluck to eat a target's Berry.",
+    "pokemonIds": [
+      23,
+      24,
+      52,
+      53,
+      142,
+      150
+    ]
+  },
+  {
+    "id": 128,
+    "name": "defiant",
+    "displayName": "Defiant",
+    "displayNameZh": "不服輸",
+    "displayNameJa": "まけんき",
+    "shortEffect": "Raises Attack two stages upon having any stat lowered.",
+    "effect": "When any of this Pokémon's stats are lowered, its Attack rises by two stages.\n\nIf multiple stats are lowered at once, this ability takes effect with each stat lowered.",
+    "pokemonIds": [
+      56,
+      57,
+      83
+    ]
+  },
+  {
+    "id": 130,
+    "name": "cursed-body",
+    "displayName": "Cursed Body",
+    "displayNameZh": "詛咒之軀",
+    "displayNameJa": "のろわれボディ",
+    "shortEffect": "Has a 30% chance of Disabling any move that hits the Pokémon.",
+    "effect": "Moves that hit this Pokémon have a 30% chance of being Disabled afterward.",
+    "pokemonIds": [
+      94
+    ]
+  },
+  {
+    "id": 131,
+    "name": "healer",
+    "displayName": "Healer",
+    "displayNameZh": "治癒之心",
+    "displayNameJa": "いやしのこころ",
+    "shortEffect": "Has a 30% chance of curing each adjacent ally of any major status ailment after each turn.",
+    "effect": "Friendly Pokémon next to this Pokémon in double and triple battles each have a 30% chance of being cured of any major status ailment after each turn.",
+    "pokemonIds": [
+      113
+    ]
+  },
+  {
+    "id": 132,
+    "name": "friend-guard",
+    "displayName": "Friend Guard",
+    "displayNameZh": "友情防守",
+    "displayNameJa": "フレンドガード",
+    "shortEffect": "Decreases all direct damage taken by friendly Pokémon to 0.75×.",
+    "effect": "All friendly Pokémon take 0.75× as much direct damage from moves while this Pokémon is in battle.\n\nThis effect stacks if multiple allied Pokémon have it.",
+    "pokemonIds": [
+      35,
+      39
+    ]
+  },
+  {
+    "id": 133,
+    "name": "weak-armor",
+    "displayName": "Weak Armor",
+    "displayNameZh": "碎裂鎧甲",
+    "displayNameJa": "くだけるよろい",
+    "shortEffect": "Raises Speed and lowers Defense by one stage each upon being hit by a physical move.",
+    "effect": "Whenever a physical move hits this Pokémon, its Speed rises one stage and its Defense falls one stage.\n\nThis ability triggers on every hit of a multiple-hit move.",
+    "pokemonIds": [
+      95,
+      138,
+      139,
+      140,
+      141
+    ]
+  },
+  {
+    "id": 136,
+    "name": "multiscale",
+    "displayName": "Multiscale",
+    "displayNameZh": "多重鱗片",
+    "displayNameJa": "マルチスケイル",
+    "shortEffect": "Halves damage taken from full HP.",
+    "effect": "This Pokémon takes half as much damage when it is hit having full HP.",
+    "pokemonIds": [
+      149
+    ]
+  },
+  {
+    "id": 139,
+    "name": "harvest",
+    "displayName": "Harvest",
+    "displayNameZh": "收穫",
+    "displayNameJa": "しゅうかく",
+    "shortEffect": "Has a 50% chance of restoring a used Berry after each turn if the Pokémon has held no items in the meantime.",
+    "effect": "After each turn, if the last item this Pokémon consumed was a Berry and it is not currently holding an item, it has a 50% chance of regaining that Berry, or a 100% chance during strong sunlight.",
+    "pokemonIds": [
+      102,
+      103
+    ]
+  },
+  {
+    "id": 142,
+    "name": "overcoat",
+    "displayName": "Overcoat",
+    "displayNameZh": "防塵",
+    "displayNameJa": "ぼうじん",
+    "shortEffect": "Protects against damage from weather.",
+    "effect": "This Pokémon does not take damage from weather.",
+    "pokemonIds": [
+      90,
+      91
+    ]
+  },
+  {
+    "id": 143,
+    "name": "poison-touch",
+    "displayName": "Poison Touch",
+    "displayNameZh": "毒手",
+    "displayNameJa": "どくしゅ",
+    "shortEffect": "Has a 30% chance of poisoning target Pokémon upon contact.",
+    "effect": "This Pokémon's contact moves have a 30% chance of poisoning the target with each hit.\n\nThis counts as an extra effect for the purposes of Shield Dust.  This ability takes effect before Mummy.",
+    "pokemonIds": [
+      88,
+      89
+    ]
+  },
+  {
+    "id": 144,
+    "name": "regenerator",
+    "displayName": "Regenerator",
+    "displayNameZh": "再生力",
+    "displayNameJa": "さいせいりょく",
+    "shortEffect": "Heals for 1/3 max HP upon switching out.",
+    "effect": "This Pokémon regains 1/3 of its maximum HP when it is switched out for another Pokémon under any circumstances other than having fainted.\n\nThis ability does not take effect when a battle ends.",
+    "pokemonIds": [
+      79,
+      80,
+      114
+    ]
+  },
+  {
+    "id": 145,
+    "name": "big-pecks",
+    "displayName": "Big Pecks",
+    "displayNameZh": "健壯胸肌",
+    "displayNameJa": "はとむね",
+    "shortEffect": "Protects against Defense drops.",
+    "effect": "This Pokémon's Defense cannot be lowered by other Pokémon.\n\nThis Pokémon can still be passed negative Defense modifiers through Heart Swap or Guard Swap.",
+    "pokemonIds": [
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "id": 146,
+    "name": "sand-rush",
+    "displayName": "Sand Rush",
+    "displayNameZh": "撥沙",
+    "displayNameJa": "すなかき",
+    "shortEffect": "Doubles Speed during a sandstorm.  Protects against sandstorm damage.",
+    "effect": "This Pokémon's Speed is doubled during a sandstorm, and it does not take sandstorm damage, regardless of type.",
+    "pokemonIds": [
+      27,
+      28
+    ]
+  },
+  {
+    "id": 147,
+    "name": "wonder-skin",
+    "displayName": "Wonder Skin",
+    "displayNameZh": "奇跡皮膚",
+    "displayNameJa": "ミラクルスキン",
+    "shortEffect": "Lowers incoming non-damaging moves' base accuracy to exactly 50%.",
+    "effect": "Non-damaging moves have exactly 50% base accuracy against this Pokémon.",
+    "pokemonIds": [
+      49
+    ]
+  },
+  {
+    "id": 148,
+    "name": "analytic",
+    "displayName": "Analytic",
+    "displayNameZh": "分析",
+    "displayNameJa": "アナライズ",
+    "shortEffect": "Strengthens moves to 1.3× their power when moving last.",
+    "effect": "This Pokémon's moves have 1.3× their power when it moves last in a turn.\n\nFuture Sight and Doom Desire are unaffected.",
+    "pokemonIds": [
+      81,
+      82,
+      120,
+      121,
+      137
+    ]
+  },
+  {
+    "id": 150,
+    "name": "imposter",
+    "displayName": "Imposter",
+    "displayNameZh": "變身者",
+    "displayNameJa": "かわりもの",
+    "shortEffect": "Transforms upon entering battle.",
+    "effect": "This Pokémon transforms into a random opponent upon entering battle.  This effect is identical to the move Transform.",
+    "pokemonIds": [
+      132
+    ]
+  },
+  {
+    "id": 151,
+    "name": "infiltrator",
+    "displayName": "Infiltrator",
+    "displayNameZh": "穿透",
+    "displayNameJa": "すりぬけ",
+    "shortEffect": "Bypasses Light Screen, Reflect, and Safeguard.",
+    "effect": "This Pokémon's moves ignore Light Screen, Reflect, and Safeguard.",
+    "pokemonIds": [
+      41,
+      42
+    ]
+  },
+  {
+    "id": 153,
+    "name": "moxie",
+    "displayName": "Moxie",
+    "displayNameZh": "自信過度",
+    "displayNameJa": "じしんかじょう",
+    "shortEffect": "Raises Attack one stage upon KOing a Pokémon.",
+    "effect": "This Pokémon's Attack rises one stage upon knocking out another Pokémon, even a friendly Pokémon.\n\nThis ability does not take effect when the Pokémon indirectly causes another Pokémon to faint, e.g. through poison or Spikes.\n\nIf this Pokémon knocks out a Pokémon with Mummy, the former's ability will change without taking effect.",
+    "pokemonIds": [
+      127,
+      130
+    ]
+  },
+  {
+    "id": 154,
+    "name": "justified",
+    "displayName": "Justified",
+    "displayNameZh": "正義之心",
+    "displayNameJa": "せいぎのこころ",
+    "shortEffect": "Raises Attack one stage upon taking damage from a Dark move.",
+    "effect": "Whenever a Dark-type move hits this Pokémon, its Attack rises one stage.\n\nThe move is not negated in any way.",
+    "pokemonIds": [
+      58,
+      59
+    ]
+  },
+  {
+    "id": 155,
+    "name": "rattled",
+    "displayName": "Rattled",
+    "displayNameZh": "膽怯",
+    "displayNameJa": "びびり",
+    "shortEffect": "Raises Speed one stage upon being hit by a Dark, Ghost, or Bug move.",
+    "effect": "This Pokémon's Speed rises one stage with each hit from a damaging Dark-, Ghost-, or Bug-type move.",
+    "pokemonIds": [
+      129
+    ]
+  },
+  {
+    "id": 159,
+    "name": "sand-force",
+    "displayName": "Sand Force",
+    "displayNameZh": "沙之力",
+    "displayNameJa": "すなのちから",
+    "shortEffect": "Strengthens Rock, Ground, and Steel moves to 1.3× their power during a sandstorm.  Protects against sandstorm damage.",
+    "effect": "During a sandstorm, this Pokémon's Rock-, Ground-, and Steel-type moves have 1.3× their base power.  This Pokémon does not take sandstorm damage, regardless of type.",
+    "pokemonIds": [
+      50,
+      51
+    ]
+  },
+  {
+    "id": 172,
+    "name": "competitive",
+    "displayName": "Competitive",
+    "displayNameZh": "好勝",
+    "displayNameJa": "かちき",
+    "shortEffect": "Raises Special Attack by two stages upon having any stat lowered.",
+    "effect": "Raises Special Attack by two stages upon having any stat lowered.",
+    "pokemonIds": [
+      39,
+      40
+    ]
+  },
+  {
+    "id": 256,
+    "name": "neutralizing-gas",
+    "displayName": "Neutralizing Gas",
+    "displayNameZh": "化學變化氣體",
+    "displayNameJa": "かがくへんかガス",
+    "shortEffect": "Neutralizes abilities of all Pokémon in battle.",
+    "effect": "While the Pokémon is in the battle, the effects of all other Pokémon’s Abilities will be nullified or will not be triggered.",
+    "pokemonIds": [
+      109,
+      110
+    ]
+  }
+]

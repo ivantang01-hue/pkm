@@ -1,0 +1,119 @@
+{
+  "id": 10,
+  "name": "caterpie",
+  "displayName": "Caterpie",
+  "displayNameZh": "綠毛蟲",
+  "displayNameJa": "キャタピー",
+  "species": "caterpie",
+  "generation": 1,
+  "types": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 30,
+    "defense": 35,
+    "specialAttack": 20,
+    "specialDefense": 20,
+    "speed": 45
+  },
+  "abilities": [
+    {
+      "id": 19,
+      "name": "shield-dust",
+      "displayName": "Shield Dust",
+      "displayNameZh": "鱗粉",
+      "displayNameJa": "りんぷん",
+      "isHidden": false,
+      "slot": 1,
+      "shortEffect": "Protects against incoming moves' extra effects."
+    },
+    {
+      "id": 50,
+      "name": "run-away",
+      "displayName": "Run Away",
+      "displayNameZh": "逃跑",
+      "displayNameJa": "にげあし",
+      "isHidden": true,
+      "slot": 3,
+      "shortEffect": "Ensures success fleeing from wild battles."
+    }
+  ],
+  "moves": [
+    {
+      "id": 33,
+      "name": "tackle",
+      "displayName": "Tackle",
+      "displayNameZh": "撞擊",
+      "displayNameJa": "たいあたり",
+      "type": "normal",
+      "damageClass": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "learnMethod": "level-up",
+      "levelLearnedAt": 1
+    },
+    {
+      "id": 81,
+      "name": "string-shot",
+      "displayName": "String Shot",
+      "displayNameZh": "吐絲",
+      "displayNameJa": "いとをはく",
+      "type": "bug",
+      "damageClass": "status",
+      "power": null,
+      "accuracy": 95,
+      "pp": 40,
+      "learnMethod": "level-up",
+      "levelLearnedAt": 1
+    },
+    {
+      "id": 173,
+      "name": "snore",
+      "displayName": "Snore",
+      "displayNameZh": "打鼾",
+      "displayNameJa": "いびき",
+      "type": "normal",
+      "damageClass": "special",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 15,
+      "learnMethod": "tutor",
+      "levelLearnedAt": null
+    },
+    {
+      "id": 450,
+      "name": "bug-bite",
+      "displayName": "Bug Bite",
+      "displayNameZh": "蟲咬",
+      "displayNameJa": "むしくい",
+      "type": "bug",
+      "damageClass": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "learnMethod": "level-up",
+      "levelLearnedAt": 9
+    },
+    {
+      "id": 527,
+      "name": "electroweb",
+      "displayName": "Electroweb",
+      "displayNameZh": "電網",
+      "displayNameJa": "エレキネット",
+      "type": "electric",
+      "damageClass": "special",
+      "power": 55,
+      "accuracy": 95,
+      "pp": 15,
+      "learnMethod": "tutor",
+      "levelLearnedAt": null
+    }
+  ],
+  "height": 3,
+  "weight": 29,
+  "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png",
+  "shinySpriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10.png",
+  "wikiUrl": "https://wiki.52poke.com/wiki/%E7%B6%A0%E6%AF%9B%E8%9F%B2"
+}

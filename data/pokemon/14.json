@@ -1,0 +1,110 @@
+{
+  "id": 14,
+  "name": "kakuna",
+  "displayName": "Kakuna",
+  "displayNameZh": "鐵殼蛹",
+  "displayNameJa": "コクーン",
+  "species": "kakuna",
+  "generation": 1,
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 25,
+    "defense": 50,
+    "specialAttack": 25,
+    "specialDefense": 25,
+    "speed": 35
+  },
+  "abilities": [
+    {
+      "id": 61,
+      "name": "shed-skin",
+      "displayName": "Shed Skin",
+      "displayNameZh": "蛻皮",
+      "displayNameJa": "だっぴ",
+      "isHidden": false,
+      "slot": 1,
+      "shortEffect": "Has a 33% chance of curing any major status ailment after each turn."
+    }
+  ],
+  "moves": [
+    {
+      "id": 81,
+      "name": "string-shot",
+      "displayName": "String Shot",
+      "displayNameZh": "吐絲",
+      "displayNameJa": "いとをはく",
+      "type": "bug",
+      "damageClass": "status",
+      "power": null,
+      "accuracy": 95,
+      "pp": 40,
+      "learnMethod": "tutor",
+      "levelLearnedAt": null
+    },
+    {
+      "id": 106,
+      "name": "harden",
+      "displayName": "Harden",
+      "displayNameZh": "變硬",
+      "displayNameJa": "かたくなる",
+      "type": "normal",
+      "damageClass": "status",
+      "power": null,
+      "accuracy": null,
+      "pp": 30,
+      "learnMethod": "level-up",
+      "levelLearnedAt": 1
+    },
+    {
+      "id": 334,
+      "name": "iron-defense",
+      "displayName": "Iron Defense",
+      "displayNameZh": "鐵壁",
+      "displayNameJa": "てっぺき",
+      "type": "steel",
+      "damageClass": "status",
+      "power": null,
+      "accuracy": null,
+      "pp": 15,
+      "learnMethod": "tutor",
+      "levelLearnedAt": null
+    },
+    {
+      "id": 450,
+      "name": "bug-bite",
+      "displayName": "Bug Bite",
+      "displayNameZh": "蟲咬",
+      "displayNameJa": "むしくい",
+      "type": "bug",
+      "damageClass": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "learnMethod": "tutor",
+      "levelLearnedAt": null
+    },
+    {
+      "id": 527,
+      "name": "electroweb",
+      "displayName": "Electroweb",
+      "displayNameZh": "電網",
+      "displayNameJa": "エレキネット",
+      "type": "electric",
+      "damageClass": "special",
+      "power": 55,
+      "accuracy": 95,
+      "pp": 15,
+      "learnMethod": "tutor",
+      "levelLearnedAt": null
+    }
+  ],
+  "height": 6,
+  "weight": 100,
+  "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/14.png",
+  "shinySpriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/14.png",
+  "wikiUrl": "https://wiki.52poke.com/wiki/%E9%90%B5%E6%AE%BC%E8%9B%B9"
+}

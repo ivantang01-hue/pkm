@@ -1,0 +1,63 @@
+{
+  "id": 132,
+  "name": "ditto",
+  "displayName": "Ditto",
+  "displayNameZh": "百變怪",
+  "displayNameJa": "メタモン",
+  "species": "ditto",
+  "generation": 1,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "hp": 48,
+    "attack": 48,
+    "defense": 48,
+    "specialAttack": 48,
+    "specialDefense": 48,
+    "speed": 48
+  },
+  "abilities": [
+    {
+      "id": 7,
+      "name": "limber",
+      "displayName": "Limber",
+      "displayNameZh": "柔軟",
+      "displayNameJa": "じゅうなん",
+      "isHidden": false,
+      "slot": 1,
+      "shortEffect": "Prevents paralysis."
+    },
+    {
+      "id": 150,
+      "name": "imposter",
+      "displayName": "Imposter",
+      "displayNameZh": "變身者",
+      "displayNameJa": "かわりもの",
+      "isHidden": true,
+      "slot": 3,
+      "shortEffect": "Transforms upon entering battle."
+    }
+  ],
+  "moves": [
+    {
+      "id": 144,
+      "name": "transform",
+      "displayName": "Transform",
+      "displayNameZh": "變身",
+      "displayNameJa": "へんしん",
+      "type": "normal",
+      "damageClass": "status",
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "learnMethod": "level-up",
+      "levelLearnedAt": 1
+    }
+  ],
+  "height": 3,
+  "weight": 40,
+  "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png",
+  "shinySpriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/132.png",
+  "wikiUrl": "https://wiki.52poke.com/wiki/%E7%99%BE%E8%AE%8A%E6%80%AA"
+}
